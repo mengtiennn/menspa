@@ -42,3 +42,23 @@
   font-family: "KaushanScript";
   src: url("./fonts/KaushanScript-Regular.ttf");
 }
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/Rubik-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/Rubik-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/Rubik-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "PlaywriteUSModern";
+  src: url("./fonts/PlaywriteUSModern-Regular.ttf");
+  font-weight: 400;
+}

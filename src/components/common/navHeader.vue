@@ -2,7 +2,7 @@
 import { ref, onMounted, watch, computed, reactive } from 'vue'
 import { useRouter } from 'vue-router'
 const router = useRouter()
-const optionList = ref(['HOME', 'ABOUT', 'ARTISTS', 'GALLERY', 'CONTACT'])
+const optionList = ref(['Home', 'About', 'Services', 'Gallery', 'Contact'])
 const showHamburger = ref(false)
 const menuShow = ref<boolean>(false)
 const scrollTo = (id:string) => {
@@ -14,7 +14,7 @@ const scrollTo = (id:string) => {
   console.log(element)
   if(element){
     const elementPosition = element.getBoundingClientRect().top;
-    const offsetPosition = elementPosition + window.pageYOffset - 95;
+    const offsetPosition = elementPosition + window.pageYOffset - 75;
     window.scrollTo({
       top: offsetPosition,
       behavior: 'smooth'
@@ -32,22 +32,16 @@ const goUrl = (url?: string) => {
 </script>
 <template>
   <div
-    class="flex bg-white pt-[7px] pl-[90px] pr-[90px] pb-[7px] justify-center items-center laptop:justify-center tablet:justify-center laptop:pt-[10px] laptop:pb-[10px] tablet:pt-[10px] tablet:pb-[10px] fixed top-0 left-0 z-50 w-full tablet:px-[5%]">
+    class="flex bg-[#f0efec] pt-[22px] px-[20%] pb-[22px] justify-center items-center laptop:justify-center tablet:justify-center laptop:pt-[10px] laptop:pb-[10px] tablet:pt-[10px] tablet:pb-[10px] fixed top-0 left-0 z-50 w-full tablet:px-[5%]">
     <div class="flex justify-between items-center w-full gap-[5rem] max-w-[1200px]">
       <div class="w-full flex justify-between items-center gap-[5rem] tablet:justify-center">
         <div class="flex items-center cursor-pointer" @click="router.push('/')">
-          <img class="w-[59px] h-[59px] object-contain" src="@/assets/img/logo.png" alt="logo">
-          <div class="whitespace-nowrap text-[20px] font-[400] tablet:text-[15px] teko">7 Train Tattoo Studio Inc</div>
+          <div class="whitespace-nowrap text-[24px] font-[400] tablet:text-[15px]">Why Not Men’s Spa</div>
         </div>
-        <div class="flex gap-[32px] text-black laptop:hidden tablet:hidden text-[17px]">
-          <div v-for="(link, idx) in optionList" :key="idx" @click="scrollTo(link)" class="cursor-pointer teko">{{ link
+        <div class="flex gap-[32px] text-black laptop:hidden tablet:hidden text-[16px]">
+          <div v-for="(link, idx) in optionList" :key="idx" @click="scrollTo(link)" class="cursor-pointer font-[400]">{{ link
             }}</div>
         </div>
-      </div>
-
-      <div
-        class="whitespace-nowrap tablet:hidden laptop:hidden text-white bg-[#000] font-[500] h-[32px] px-[24px] py-[6px] rounded-full cursor-pointer flex justify-center items-center">
-        <a :href="'tel:646-379-9995'" class="text-[17px] teko">BOOK NOW: 646-379-9995</a>
       </div>
     </div>
     <!-- <img src="@/assets/img/menu.svg" class="absolute top-[16px] right-4 cursor-pointer desktop:hidden mac:hidden tablet:hidden" @click="showHamburger = true"> -->
@@ -60,7 +54,7 @@ const goUrl = (url?: string) => {
       <img src="@/assets/icon/close.svg" class="fixed top-[16px] right-4 cursor-pointer desktop:hidden"
         @click="showHamburger = false">
       <div class="flex gap-[24px] text-text-black flex-col items-center">
-        <div v-for="(link, idx) in optionList" :key="idx" @click="scrollTo(link)" class="cursor-pointer teko">{{ link }}
+        <div v-for="(link, idx) in optionList" :key="idx" @click="scrollTo(link)" class="cursor-pointer">{{ link }}
         </div>
       </div>
     </div>
