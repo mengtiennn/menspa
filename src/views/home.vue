@@ -29,19 +29,31 @@
     </div>
     <div id="About" class="px-[10%] bg-[#f0efec] flex py-[6rem] justify-evenly tablet:py-[109px] mac:py-[8rem]">
       <div class="w-full flex flex-col gap-[1rem] items-center tablet:hidden">
-        <div class="text-[15px] text-[#CF6F00] rublk">TREATMENTS  •  SERVICES</div>
+        <div class="text-[15px] text-[#CF6F00] rublk">TREATMENTS • SERVICES</div>
         <div class="text-[36px] playwriteUSModern">Best Spa Near You!</div>
         <div class="w-[80%] flex flex-col gap-[1rem]">
           <div class="rublk text-[#636262] text-center">
-            Here at Why Not Man’s Spa we specialize in providing therapeutic massage for men at an affordable price. We are client focused and make sure to always keep you feeling healthy and relaxed after each therapy. We believe massage therapy is an extremely important aspect of a healthy living, it will help you maintain a healthy body and can even heal injury or chronic pain. Some of the services we offer are body massages, waxing & trimming, manicure & pedicure and facial treatment. All the services that we offer have health benefits that will lead you to living a happier and healthier life, we also make it mandatory to use clean and anti-allergic products.
+            Here at Why Not Man’s Spa we specialize in providing therapeutic massage for men at an affordable price. We
+            are client focused and make sure to always keep you feeling healthy and relaxed after each therapy. We
+            believe massage therapy is an extremely important aspect of a healthy living, it will help you maintain a
+            healthy body and can even heal injury or chronic pain. Some of the services we offer are body massages,
+            waxing & trimming, manicure & pedicure and facial treatment. All the services that we offer have health
+            benefits that will lead you to living a happier and healthier life, we also make it mandatory to use clean
+            and anti-allergic products.
           </div>
           <div class="rublk text-[#636262] mt-[16px] text-center">
-            Through our site you can find some of our best sales and deals that we have to offer. You will also be able to view our services in more detail with all the benefits of each service listed, you can also order a gift card from us, or check out our amazing gallery and get to know our Spa before you even arrive. We have the best rates and are located in the heart of New York’s West Village. Visit us at 174 – 04 West 4th Street Between 6 and 7 Ave near by, 6th Ave, New York, NY 10014, or give us a call at (212) 337-8551 and start your journey towards living a calmer, relaxed life free of stress.
+            Through our site you can find some of our best sales and deals that we have to offer. You will also be able
+            to view our services in more detail with all the benefits of each service listed, you can also order a gift
+            card from us, or check out our amazing gallery and get to know our Spa before you even arrive. We have the
+            best rates and are located in the heart of New York’s West Village. Visit us at 174 – 04 West 4th Street
+            Between 6 and 7 Ave near by, 6th Ave, New York, NY 10014, or give us a call at (212) 337-8551 and start your
+            journey towards living a calmer, relaxed life free of stress.
           </div>
         </div>
       </div>
     </div>
-    <div id="Contact" class="bg-[url('@/assets/img/contactBg.png')] h-[279px] bg-cover flex justify-evenly items-center px-[10%]">
+    <div id="Contact"
+      class="bg-[url('@/assets/img/contactBg.png')] h-[279px] bg-cover flex justify-evenly items-center px-[10%]">
       <div class="flex flex-col items-center gap-[8px] h-[100px]">
         <div class="text-[18px] font-[500]">Address</div>
         <div class="flex flex-col justify-center items-center">
@@ -65,17 +77,119 @@
         </div>
       </div>
     </div>
+    <!-- SERVICES & PRICES -->
+    <div class="w-full flex flex-col items-center mt-[132px] mb-[112px]">
+      <div class="flex flex-col items-center">
+        <span class="text-[15px] font-[600] rublk text-[#CF6F00]">SERVICES & PRICES</span>
+        <span class="text-[36px] font-[400] playwriteUSModern">Ready to Relax?</span>
+      </div>
+      <div class="mt-[57px] flex flex-col gap-[62px]">
+        <div class="flex gap-[40px] items-center">
+          <img src="@/assets/img/s1.png" alt="" class="w-[289px]">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px]">
+            <span class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040]">Body Massage</span>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#404040]">
+              We provide professional body massage, reflexology, Swedish massage and hot stone massage. There are
+              various health benefits to regular massage treatment, such as; decreased pain, increase in blood flow,
+              less anxiety, reduce stress, decrease muscle tension and much more. 
+            </div>
+            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#464646]">
+              30min – $45&nbsp&nbsp&nbsp&nbsp&nbsp45min – $60&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp60min – $70<br />90min
+              – $105&nbsp&nbsp&nbsp120min
+              – $125
+            </div>
+            <div class="mt-[13px] Rubik text-[15px] font-[400] leading-[24px] text-[#464646]">$65/60min massage with
+              Free Hot stone
+              massage<br />(Original rate: $70)</div>
+          </div>
+        </div>
+        <div class="flex gap-[40px] items-center">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px]">
+            <span class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040]">Waxing & Trimming</span>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#404040]">
+              Our waxing services will keep you well groomed while feeling clean and smooth. We can provide waxing and
+              trimming for your face, chest, back, arms or legs. We also use waxing devices with good anti-allergy
+              products.
+            </div>
+            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#464646] flex gap-[20px]">
+              <div>
+                Eyebrows – $15<br />Full arm – $55 ($30)<br />Half arm – $30 ($15)<br />Under arm – $25 ($15)<br />Full
+                leg
+                – $68
+                ($40)<br />Upper leg – $45 ($30)<br />Lower leg – $35 ($20)<br />Buttocks – $58 ($35)
+              </div>
+              <div>
+                Neck – $15 ($10)<br />Back – $35 ($20)<br />Shoulder – $15 ($10)<br />Chest – $35 ($20)<br />Stomach
+                – $30
+                ($20)<br />Bikini –
+                $35 ($20)<br />Brazilian Bikini – $85 ($50)<br />Full body – $199 ($130)
+              </div>
+            </div>
+          </div>
+          <img src="@/assets/img/s2.png" alt="" class="w-[289px]">
+        </div>
+        <div class="flex gap-[40px] items-center">
+          <img src="@/assets/img/s3.png" alt="" class="w-[289px]">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px]">
+            <span class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040]">Facial Treatment</span>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#404040]">
+              We use luxury skincare products and professional beauty devices in order to exfoliate and clean the face.
+              We also provide face massages and use facial masks to achieve a smooth, clean feeling.
+            </div>
+            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price - Facials</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#464646] flex gap-[20px] mt-[2px]">
+              70min – $148&nbsp&nbsp&nbsp&nbsp80min – $168
+            </div>
+            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price - Moisture
+              Facial</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#464646] flex gap-[20px] mt-[2px]">
+              30min – $68&nbsp&nbsp&nbsp&nbsp70min – $168<br />50min – $108&nbsp&nbsp&nbsp&nbsp80min – $168
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-[40px] items-center">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px]">
+            <span class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040]">Manicure & Pedicure</span>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#404040]">
+              Get a sophisticated look with our professional nail services. Keep those nails clean and avoid all the
+              discomforts and bacteria that can come from poor nail care. All of our manicure and pedicure services
+              include bathing and hydration.
+            </div>
+            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#464646] flex gap-[20px] mt-[2px]">
+              Manicure – $15&nbsp&nbsp&nbsp&nbspWhy Not Manicure – $28<br />Pedicure – $32&nbsp&nbsp&nbsp&nbspWhy Not
+              Pedicure – $52
+            </div>
+          </div>
+          <img src="@/assets/img/s4.png" alt="" class="w-[289px]">
+        </div>
+        <div class="flex gap-[40px] items-center">
+          <img src="@/assets/img/s5.png" alt="" class="w-[289px]">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px]">
+            <span class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040]">Body Scrubbing</span>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#404040]">
+              We provide body scrubbing which will make your skin look more vibrant and youthful. Body scrubs help
+              remove dead skin cells, boosts circulation and helps increase your nymph nodes. The refreshing texture
+              against your skin will also have you feeling amazing, an experience that will boost your mood as you
+              continue your day or evening.
+            </div>
+            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#464646] flex gap-[20px] mt-[2px]">
+              60min – $95
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- email -->
     <div class="flex h-[234px]">
       <div class="w-[35%] h-full"><img class="object-cover w-full h-full" src="@/assets/img/email.png" alt=""></div>
       <div class="bg-[#E6D4C6] w-[65%] flex flex-col justify-center items-center">
         <div class="rublk font-[500]">Subscribe for Exclusive Updates and Offers!</div>
         <div class="mt-4">
-          <el-input
-            v-model="emailInput"
-            style="width: 350px"
-            placeholder="Email"
-            class="input-with-select"
-          >
+          <el-input v-model="emailInput" style="width: 350px" placeholder="Email" class="input-with-select">
             <template #append>
               <img src="@/assets/img/search.svg" alt="">
             </template>
@@ -83,338 +197,59 @@
         </div>
       </div>
     </div>
-    <!-- 刺青師介紹電腦版 -->
-    <div
-      class="w-full text-center text-black text-[40px] rublk font-[500] mb-[35px] laptop:text-[36px] tablet:text-[36px]">
-      Artist & Showcase</div>
-    <div class="px-[90px] mb-[119px] laptop:hidden tablet:hidden">
-      <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[8vw] px-[60px] justify-between">
-        <div class="flex w-full gap-[45px] items-center justify-center">
-          <div class="flex flex-col gap-[16px] w-[30%] items-center">
-            <span class="rublk font-[500] text-[32px]">Ricky Chen</span>
-            <img class="w-[277px]" src="@/assets/img/ricky.png" alt="contact">
-          </div>
-          <div class="w-[45%] flex flex-col gap-[10px]">
-            <span
-              class="noto text-[15px] font-[400] text-center">Ricky先生曾经是中国青年艺术家，多次获过全国及国际书画艺术大奖，2015年还在华盛顿国会山庄获过艺术成就奖，并由国会议员、参众两院财政委员会主席：卡罗林-玛罗尼亲自颁奖。后来改行做为纹身艺术家，纹身作品又在纽约国际纹身博览会中多次获过纹身一等奖、二等奖、三等奖等等。
-              擅长亚洲风格、写实风格、彩色黑白等等。他的独特构图和错综复杂的细节使得纹身作品与众不同，无论是从近看还是远观。
-            </span>
-            <br />
-            <span class="tea text-[15px] font-[400] text-center">
-              Mr. Ricky was once a prominent young Chinese artist celebrated for his exceptional calligraphy and
-              painting
-              skills, winning numerous national and international awards. In 2015, he received an Artistic Achievement
-              Award
-              at Capitol Hill in Washington, D.C., presented by Congresswoman Carolyn Maloney, highlighting his impact
-              on
-              the art community.
-              Later, he transitioned to tattoo artistry, quickly gaining recognition for his work at the New York
-              International Tattoo Expo, where he won multiple first, second, and third prizes. Mr. Ricky excels in
-              various
-              styles, including Asian, realistic, and both colored and black-and-white tattoos. His unique compositions
-              and
-              intricate details make his tattoos stand out, inviting admiration from both close up and afar. His journey
-              reflects a remarkable evolution in his artistic expression, merging traditional techniques with modern
-              aesthetics.
-            </span>
-          </div>
-        </div>
-        <div class="w-[65%] px-[40px]">
-          <Carousel :snapAlign="'center'" :breakpoints="breakpoints" :wrapAround="true">
-            <Slide v-for="r in 9" :key="r">
-              <div class="carousel__item" @click="show('r', r)">
-                <!-- <img :src="getAssetsFile(`carousel/c${slide}.png`)"
-                  class="w-[220px] h-[281px] object-cover cursor-pointer"> -->
-                <img :src="getAssetsImgFile('r', `r${r}.png`)" alt="" class="h-[157px] object-contain">
-              </div>
-            </Slide>
-            <template #addons>
-              <Navigation />
-            </template>
-          </Carousel>
-        </div>
-        <!-- <div class="flex flex-col items-center gap-[13px]">
-          <span class="teko font-[500] text-[36px] mac:text-[24px] teko">Ricky Chen</span>
-          <img class="w-[489px]" src="@/assets/img/ricky.png" alt="contact">
-          <div class="w-[453px] text-[20px] font-[400] text-center mac:text-[15px] teko">多次获得“纽约国际纹身博览会”大奖的
-            Ricky先生主导的纹身师团队。我们注重卫生和安全，为您提供高品质的纹身体验。我们会认真倾听你的想法和需求，并与你合作创作出独特而精美的纹身作品。
-            Award-winning tattoo artist Mr. Ricky, renowned for his multiple accolades at the New York International
-            Tattoo Expo.</div>
-        </div>
-        <div class="flex flex-wrap gap-[26px]">
-          <img :src="getAssetsImgFile('r', `r${r}.png`)" alt="" v-for="r in 9" @click="show('r', r)">
-        </div> -->
+    <!-- Better Prices -->
+    <div class="w-full flex justify-center gap-[240px] mt-[161px] items-end mb-[199px]">
+      <div class="relative">
+        <img src="@/assets/img/sale1.png" alt="" class="w-[354px]">
+        <img src="@/assets/img/sale2.png" alt="" class="w-[238px] absolute top-[92px] right-[-194px]">
       </div>
-    </div>
-    <div class="px-[90px] mb-[119px] laptop:hidden tablet:hidden">
-      <div class="w-full bg-[#EAEAEA] py-[70px] flex flex-col items-center gap-[8vw] px-[60px] justify-between">
-        <div class="flex w-[70%] gap-[45px] items-center justify-center">
-          <div class="w-[55%] flex flex-col gap-[10px]">
-            <span class="noto text-[15px] font-[400] text-center">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
-              细线纹身，细小纹身等等。他讲究细节，构图精致，都能体现他的坚实的艺术基础。
-            </span>
-            <br />
-            <span class="tea text-[15px] font-[400] text-center">
-              Master Danny has loved art since he was a child, and now he is a tattoo artist with many years of
-              experience. He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc.
-              His attention to details and his composition is exquisite, which can reflect his solid artistic
-              foundation.
-            </span>
+      <div class="flex flex-col items-center">
+        <span class="text-[#CF6F00] rublk font-[600] text-[24px] leading-[28.44px]">Better Prices</span>
+        <div class="playwriteUSModern font-[400] text-[36px] text-center leading-[49.47px] rublk">Promotion Package
+          <br />&<br />
+          Big Sale!
+        </div>
+        <div class="bg-[#F9F9F9] py-[28px] px-[63px] rounded-[27px] mt-[42px] relative">
+          <img src="@/assets/img/sale3.png" alt="" class="w-[82px] absolute left-[-20px] top-[-40px]">
+          <div class="rublk text-[24px] font-[300] leading-[32.52px] rublk">
+            <span class="text-[#CF0000] text-[36px] font-[500] leading-[55.8px] rublk">50% off</span>all facial
+            treatments
           </div>
-          <div class="flex flex-col gap-[16px] w-[30%] items-center">
-            <span class="rublk font-[500] text-[32px]">Danny</span>
-            <img class="w-[232px]" src="@/assets/img/danny.png" alt="contact">
+          <div class="rublk text-[24px] font-[300] leading-[37.2px] rublk">
+            <span class="text-[#CF0000] text-[32px] font-[500] leading-[49.6px] rublk">10% off</span>all waxing services
           </div>
-        </div>
-        <div class="w-[65%] px-[40px]">
-          <Carousel :snapAlign="'center'" :breakpoints="breakpoints" :wrapAround="true">
-            <Slide v-for="d in 9" :key="d">
-              <div class="carousel__item" @click="show2('d', d)">
-                <!-- <img :src="getAssetsFile(`carousel/c${slide}.png`)"
-                  class="w-[220px] h-[281px] object-cover cursor-pointer"> -->
-                <img :src="getAssetsImgFile('d', `d${d}.png`)" alt="" class="h-[161px]">
-              </div>
-            </Slide>
-            <template #addons>
-              <Navigation />
-            </template>
-          </Carousel>
-        </div>
-        <!-- <div class="flex flex-wrap gap-[26px]">
-          <img :src="getAssetsImgFile('d', `d${d}.png`)" alt="" v-for="d in 9" @click="show2('d', d)">
-        </div>
-        <div class="flex flex-col items-center gap-[13px]">
-          <span class="teko font-[500] text-[36px] mac:text-[24px]">Danny</span>
-          <img class="w-[489px]" src="@/assets/img/danny.png" alt="contact">
-          <div class="w-[453px] text-[20px] font-[400] text-center mac:text-[15px]">Danny
-            师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
-            细线纹身，细小纹身等等。他讲究细节，构图精致，都能体现他的坚实的艺术基础。
-            Master Danny has loved art since he was a child, and now he is a tattoo artist with many years of
-            experience. He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc.
-            His attention to details and his composition is exquisite, which can reflect his solid artistic foundation.
+          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$25 - </span>30 min reflexology
           </div>
-        </div> -->
-      </div>
-    </div>
-    <div class="px-[90px] laptop:hidden tablet:hidden">
-      <div class="w-full bg-[#EAEAEA] px-[252px] flex items-center h-[905px]">
-        <div class="flex flex-col items-center gap-[13px]">
-          <span class="rublk font-[500] text-[36px] mac:text-[24px]">Kimberly</span>
-          <img src="@/assets/img/kimberly.png" alt="contact" class="w-[266px]">
-        </div>
-      </div>
-    </div>
-    <!-- 刺青師介紹 手機版 -->
-    <div
-      class="hidden laptop:flex tablet:flex flex-col bg-[#EAEAEA] pt-[84px] pb-[106px] px-[30px] justify-center mb-[54px]">
-      <div class="flex flex-col items-center gap-[18px]">
-        <span class="rublk font-[400] text-[24px] mac:text-[24px]">Ricky Chen</span>
-        <img src="@/assets/img/ricky.png" alt="contact" class="w-[80%]">
-        <div class="text-[14px] rublk flex flex-col gap-[5px] w-[80%]">
-          <span
-            class="noto">Ricky先生曾经是中国青年艺术家，多次获过全国及国际书画艺术大奖，2015年还在华盛顿国会山庄获过艺术成就奖，并由国会议员、参众两院财政委员会主席：卡罗林-玛罗尼亲自颁奖。后来改行做为纹身艺术家，纹身作品又在纽约国际纹身博览会中多次获过纹身一等奖、二等奖、三等奖等等。
-            擅长亚洲风格、写实风格、彩色黑白等等。他的独特构图和错综复杂的细节使得纹身作品与众不同，无论是从近看还是远观。</span><br />
-          <span class="tea">
-            Mr. Ricky was once a prominent young Chinese artist celebrated for his exceptional calligraphy and painting
-            skills, winning numerous national and international awards. In 2015, he received an Artistic Achievement
-            Award
-            at Capitol Hill in Washington, D.C., presented by Congresswoman Carolyn Maloney, highlighting his impact on
-            the art community.
-            Later, he transitioned to tattoo artistry, quickly gaining recognition for his work at the New York
-            International Tattoo Expo, where he won multiple first, second, and third prizes. Mr. Ricky excels in
-            various
-            styles, including Asian, realistic, and both colored and black-and-white tattoos. His unique compositions
-            and
-            intricate details make his tattoos stand out, inviting admiration from both close up and afar. His journey
-            reflects a remarkable evolution in his artistic expression, merging traditional techniques with modern
-            aesthetics.</span>
-        </div>
-      </div>
-      <!-- <div class="flex flex-wrap gap-x-[30px] gap-y-[17px] justify-center mt-[53px]">
-        <img class="w-[30vw]" :src="getAssetsImgFile('rm', `r${r}.png`)" alt="" v-for="r in 8">
-      </div> -->
-      <div class="w-full flex justify-center">
-        <div class="p-example__body mt-[36px] w-[60vw]">
-          <div class="p-example__splide">
-            <div class="splide" ref="splideRef">
-              <div class="splide__track">
-                <ul class="splide__list">
-                  <li v-for="r in 8" :key="r" class="p-splide__slide splide__slide" @click="show('r', r)">
-                    <img :src="getAssetsImgFile('r', `r${r}.png`)" alt="" class="object-cover">
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$35 - </span>Manicure + Pedicure
+          </div>
+          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$40 - </span>30 min massage
+          </div>
+          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$60 - </span>60 min massage
+          </div>
+          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$95 - </span>Manicure + Pedicure
+            + 60
+            min massage
+          </div>
+          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$125 - </span>60 min massage +
+            Facial
+          </div>
+          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$155 - </span>Manicure + Pedicure
+            + 60
+            min massage + Facial
           </div>
         </div>
       </div>
     </div>
-    <div
-      class="hidden laptop:flex tablet:flex flex-col bg-[#EAEAEA] pt-[84px] pb-[106px] px-[30px] justify-center mb-[54px]">
-      <div class="flex flex-col items-center gap-[18px]">
-        <span class="rublk font-[500] text-[24px] mac:text-[24px]">Danny</span>
-        <img src="@/assets/img/danny.png" alt="contact" class="w-[80%]">
-        <div class="text-[14px] rublk flex flex-col gap-[5px] w-[80%]">
-          <span class="noto">Danny 师傅从小喜欢艺术，现在已经是有多年年经验的纹身师。擅长亚洲风格，中国水彩纹身，
-            细线纹身，细小纹身等等。他讲究细节，构图精致，都能体现他的坚实的艺术基础。</span><br />
-          <span class="tea w-[90%]">
-            Master Danny has loved art since he was a child, and now he is a tattoo artist with many years of
-            experience. He is good at Asian style, Chinese watercolor tattoos, fine line tattoos, small tattoos, etc.
-            His attention to details and his composition is exquisite, which can reflect his solid artistic
-            foundation.</span>
-        </div>
-      </div>
-      <!-- <div class="flex flex-wrap gap-x-[30px] gap-y-[17px] justify-center mt-[53px]">
-        <img class="w-[30vw]" :src="getAssetsImgFile('d', `d${r}.png`)" alt="" v-for="r in 8">
-      </div> -->
-      <div class="w-full flex justify-center">
-        <div class="p-example__body mt-[36px] w-[60vw]">
-          <div class="p-example__splide">
-            <div class="splide" ref="splideRef2">
-              <div class="splide__track">
-                <ul class="splide__list">
-                  <li v-for="r in 8" :key="r" class="p-splide__slide splide__slide" @click="show2('d', r)">
-                    <img class="w-[30vw]" :src="getAssetsImgFile('d', `d${r}.png`)" alt="">
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hidden laptop:flex tablet:flex bg-[#EAEAEA] pt-[84px] pb-[106px] justify-center">
-      <div class="flex flex-col items-center gap-[18px]">
-        <span class="rublk font-[500] text-[36px] mac:text-[24px]">Kimberly</span>
-        <img src="@/assets/img/kimberly.png" alt="contact">
-      </div>
-    </div>
-    <!-- contact 電腦版 -->
-    <div class="w-full flex justify-center items-center py-[247px] laptop:hidden tablet:hidden">
-      <div class="flex">
-        <img src="@/assets/img/contactphoto.png" alt="" class="w-[410px]">
-        <div
-          class="w-[295px] h-[333px] bg-[#292929] translate-x-[-40px] translate-y-[71px] flex flex-col gap-[18px] justify-center">
-          <div class="flex flex-col gap-[4px] items-center">
-            <span class="text-[24px] font-[400] text-white rublk mac:text-[24px] tracking-wide">CONTACT</span>
-            <span class="text-[15px] font-[300] text-white rublk text-center mac:text-[15px] tracking-widest">(646)
-              379-9995</span>
-          </div>
-          <div class="flex flex-col gap-[4px] items-center">
-            <span class="text-[24px] font-[400] text-white rublk mac:text-[24px] tracking-wide">LOCATION</span>
-            <span class="text-[15px] font-[300] text-white rublk text-center mac:text-[15px] tracking-widest">133-55
-              Roosevelt
-              Ave<br />2nd fl, Flushing,
-              NY
-              11354</span>
-          </div>
-          <div class="flex flex-col gap-[4px] items-center">
-            <span class="text-[24px] font-[400] text-white rublk mac:text-[24px] tracking-wide">HOURS OF
-              OPERATION</span>
-            <span class="text-[15px] font-[300] text-white rublk mac:text-[15px] tracking-widest">
-              Mon - Sat ______ 12AM - 7PM</span>
-            <span
-              class="text-[15px] font-[300] text-white rublk mac:text-[15px] tracking-widest">&nbsp;&nbsp;&nbsp;&nbsp;Sunday
-              ______12AM
-              -
-              6PM</span>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="w-fit h-fit relative">
-        <img src="@/assets/img/contact.png" alt="contact">
-        <div class="flex flex-col absolute right-[90px] top-[50%] translate-y-[-45%] justify-between gap-[8px]">
-          <div class="flex flex-col gap-[4px] items-center">
-            <span class="text-[36px] font-[400] text-white teko mac:text-[24px]">CONTACT</span>
-            <span class="text-[24px] font-[300] text-white teko mac:text-[15px]">(646) 379-9995</span>
-          </div>
-          <div class="flex flex-col gap-[4px] items-center">
-            <span class="text-[36px] font-[400] text-white teko mac:text-[24px]">LOCATION</span>
-            <span class="text-[24px] font-[300] text-white teko text-center mac:text-[15px]">133-55 Roosevelt
-              Ave<br />2nd fl, Flushing,
-              NY
-              11354</span>
-          </div>
-          <div class="flex flex-col gap-[4px] items-center">
-            <span class="text-[36px] font-[400] text-white teko mac:text-[24px]">HOURS OF OPERATION</span>
-            <span class="text-[24px] font-[300] text-white teko mac:text-[15px]">Mon - Sat --------- 12AM - 7PM</span>
-            <span class="text-[24px] font-[300] text-white teko mac:text-[15px]">Sunday --------- 12AM - 6PM</span>
-          </div>
-        </div>
-      </div> -->
-    </div>
-    <!-- contact 手機版 -->
-    <div
-      class="hidden laptop:flex tablet:flex bg-[#292929] w-full pt-[191px] pb-[100px] justify-center relative mt-[200px] mb-[75px]">
-      <img src="@/assets/img/mcontact.png" alt="" class="absolute top-[-100px]">
-      <div class="flex flex-col justify-between gap-[46px]">
-        <div class="flex flex-col gap-[4px] items-center">
-          <span class="text-[24px] font-[400] text-white rublk tracking-widest">CONTACT</span>
-          <span class="text-[18px] font-[300] text-[#D3D3D3] rublk tracking-widest">(646) 379-9995</span>
-        </div>
-        <div class="flex flex-col gap-[4px] items-center">
-          <span class="text-[24px] font-[400] text-white rublk tracking-widest">LOCATION</span>
-          <span class="text-[18px] font-[300] text-[#D3D3D3] rublk text-center tracking-widest">133-55 Roosevelt
-            Ave<br />2nd fl, Flushing,
-            NY
-            11354</span>
-        </div>
-        <div class="flex flex-col gap-[4px] items-center">
-          <span class="text-[24px] font-[400] text-white rublk tracking-widest">HOURS OF OPERATION</span>
-          <span class="text-[18px] font-[300] text-[#D3D3D3] rublk tracking-widest">Mon - Sat --------- 12AM - 7PM</span>
-          <span class="text-[18px] font-[300] text-[#D3D3D3] rublk tracking-widest">Sunday --------- 12AM - 6PM</span>
-        </div>
-      </div>
-    </div>
-    <div id="CONTACT" class="mx-[20%] flex flex-col justify-center items-center tablet:hidden">
-      <div
-        class="text-[32px] mac:text-[32px] font-[500] tablet:leading-[2rem] tablet:text-[1.5rem] tablet:text-center rublk tracking-wide">
-        Professional Tattooing and Piercing</div>
-      <div class="text-[15px] mac:text-[15px] font-[400] my-[2rem] tablet:text-[1rem] tea text-center w-[80%]">
-        Led by award-winning tattoo artist Ricky, who has won multiple honors at the New York International Tattoo Expo,
-        our team is dedicated to providing you with a high-quality tattoo experience in a safe and hygienic environment.
-        We listen carefully to your ideas and work with you to create a unique, stunning tattoo.
-      </div>
-      <div class="text-[15px] mac:text-[15px] font-[400] tablet:text-[1rem] tea text-center w-[80%]">
-        Our artists are skilled in a variety of styles, including Neo-traditional, Traditional, Japanese, Realistic,
-        Fine Line, Portrait, Old School, and cover-up tattoos. Danny, another highly experienced artist on our team,
-        specializes in Asian styles, Chinese watercolor, fine line, and small tattoos, with a keen eye for detail and
-        refined compositions.
-      </div>
-      <div class="text-[20px] mac:text-[20px] font-[600] tablet:text-[1rem] tea mt-[10px]">Book your appointment
-        today! </div>
-      <div class="text-[20px] mac:text-[20px] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
-      </div>
-    </div>
-    <div id="CONTACT" class="flex-col justify-center items-center hidden tablet:flex px-[15%]">
-      <div
-        class="text-[36px] mac:text-[28px] font-[500] tablet:leading-[2rem] tablet:text-[36px] tablet:text-center rublk tracking-wide">
-        Professional<br />Tattooing and Piercing</div>
-      <div class="text-[15px] mac:text-[15px] font-[400] my-[2rem] tablet:text-[1rem] tea text-center">
-        Led by award-winning tattoo artist Ricky, who has won multiple honors at the New York International Tattoo Expo,
-        our team is dedicated to providing you with a high-quality tattoo experience in a safe and hygienic environment.
-        We listen carefully to your ideas and work with you to create a unique, stunning tattoo.
-      </div>
-      <div class="text-[15px] mac:text-[15px] font-[400] tablet:text-[1rem] tea text-center">
-        Our artists are skilled in a variety of styles, including Neo-traditional, Traditional, Japanese, Realistic,
-        Fine Line, Portrait, Old School, and cover-up tattoos. Danny, another highly experienced artist on our team,
-        specializes in Asian styles, Chinese watercolor, fine line, and small tattoos, with a keen eye for detail and
-        refined compositions.
-      </div>
-      <div class="text-[15px] mac:text-[15px] font-[600] tablet:text-[1rem] tea mt-[40px]">Book your appointment
-        today! </div>
-      <div class="text-[15px] mac:text-[15px] font-[600] tablet:text-[1rem] tea">Call (646) 379-9995 for consultation.
-      </div>
-    </div>
-    <div class="flex justify-center items-center gap-[2rem] my-[10rem] tablet:hidden ">
-      <img src="@/assets/img/contactImg1.png" alt="" class="w-[300px] h-[412px] object-cover">
-      <img src="@/assets/img/contactImg2.png" alt="" class="w-[300px] h-[412px] object-cover">
-      <img src="@/assets/img/contactImg3.png" alt="" class="w-[300px] h-[412px] object-cover">
-    </div>
-    <div class="hidden flex-col justify-center items-center gap-[2rem] my-[5rem] px-[20px] tablet:flex">
-      <img src="@/assets/img/contactImg3.png" alt="" class="w-[227px] h-[338px] object-cover">
-      <img src="@/assets/img/contactImg1.png" alt="" class="w-[227px] h-[338px] object-cover">
-      <img src="@/assets/img/contactImg2.png" alt="" class="w-[227px] h-[338px] object-cover">
+    <!-- 八張圖片區 -->
+    <div class="w-full px-[32px] flex flex-wrap justify-center mb-[199px]">
+      <img v-for="p in 8" :src="getAssetsImgFile('e', `e${p}.png`)" alt="" class="object-contain w-[343px]">
     </div>
   </div>
   <div
@@ -456,7 +291,7 @@
 <script setup>
 import emailjs from '@emailjs/browser'
 import { ref, computed, onMounted } from 'vue'
-import { getAssetsImgFile } from '../utils/commonUse'
+import { getAssetsImgFile, getAssetsImg } from '../utils/commonUse'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
 const content = ref(null)
@@ -531,72 +366,10 @@ const breakpoints = {
   },
 }
 
-import '@splidejs/splide/dist/css/splide.min.css'
-import Splide from '@splidejs/splide'
-import { Grid } from '@splidejs/splide-extension-grid'
+// import '@splidejs/splide/dist/css/splide.min.css'
+// import Splide from '@splidejs/splide'
+// import { Grid } from '@splidejs/splide-extension-grid'
 
-const splideRef = ref(null)
-const splideRef2 = ref(null)
-
-onMounted(() => {
-  const splide = new Splide(splideRef.value, {
-    type: 'loop',
-    height: '400px',
-    gap: '1em',
-    perPage: 2,
-    perMove: 1,
-    grid: {
-      dimensions: [[1, 1], [2, 2], [2, 1], [1, 2], [2, 2], [3, 2]],
-      gap: {
-        row: '1em',
-        col: '1em'
-      }
-    },
-    breakpoints: {
-      600: {
-        height: '300px',
-        perPage: 1,
-        grid: {
-          dimensions: [[2, 2], [2, 2], [2, 2]],
-          gap: {
-            row: '13px',
-            col: '13px'
-          }
-        }
-      }
-    }
-  })
-  const splide2 = new Splide(splideRef2.value, {
-    type: 'loop',
-    height: '400px',
-    gap: '1em',
-    perPage: 2,
-    perMove: 1,
-    grid: {
-      dimensions: [[1, 1], [2, 2], [2, 1], [1, 2], [2, 2], [3, 2]],
-      gap: {
-        row: '1em',
-        col: '1em'
-      }
-    },
-    breakpoints: {
-      600: {
-        height: '300px',
-        perPage: 1,
-        grid: {
-          dimensions: [[2, 2], [2, 2], [2, 2]],
-          gap: {
-            row: '13px',
-            col: '13px'
-          }
-        }
-      }
-    }
-  })
-
-  splide.mount({ Grid })
-  splide2.mount({ Grid })
-})
 
 const emailInput = ref('')
 const submitForm = async (formEl) => {
