@@ -18,35 +18,29 @@ const emailContent = ref('')
 </script>
 <template>
   <div
-    class="bg-[#000] w-full pt-[30px] pb-[30px] flex flex-col items-center gap-[20px] laptop:gap-[61px] tablet:gap-[61px] tablet:pt-[57px]">
+    class="bg-[#e6d4c6] w-full pt-[110px] pb-[26px] flex flex-col items-center gap-[96px] laptop:gap-[61px] tablet:gap-[61px] tablet:pt-[57px]">
     <div
       class="flex gap-[128px] justify-center items-start laptop:flex-col tablet:flex-col laptop:gap-[40px] tablet:gap-[20px] tablet:items-center">
-      <div class="flex flex-col gap-[11px] tablet:items-center tablet:mb-[2rem]">
-        <img src="@/assets/img/logo.png" alt="logo" class="w-[224px] tablet:w-[126px] tablet:mb-[1rem]">
-        <div class="text-center text-[18px] font-[300] text-white teko tracking-widest">133-55 Roosevelt Ave 2nd
-          fl,<br />Flushing, NY
-          11354</div>
+      <div class="flex flex-col gap-[11px] tablet:items-center tablet:mb-[2rem] items-center">
+        <img src="@/assets/img/logo.png" alt="logo" class="w-[118px] tablet:w-[126px] tablet:mb-[1rem]">
+        <div class="w-[223px] text-center text-[15px] font-[400] text-[#323232] tracking-widest rublk">174-04 West 4th Street, New York, NY 10014</div>
       </div>
-      <div class="flex flex-col gap-[24px] text-white text-center mt-[30px]">
-        <span class="font-[500] text-[24px] tablet:text-[20px] teko tracking-widest">HOURS</span>
-        <div class="font-[300] text-[18px] tablet:text-[15px] teko tracking-widest">Monday-Saturday<br />12PM - 7PM
+      <div class="flex flex-col gap-[24px] text-[#323232] text-center mt-[30px]">
+        <span class="font-[500] text-[15px] tablet:text-[20px] tracking-widest rublk">HOURS</span>
+        <div class="font-[300] text-[15px] tablet:text-[15px] tracking-widest rublk">Monday-Sunday<br/>10:00AM - 11:00PM
         </div>
-        <div class="font-[300] text-[18px] tablet:text-[15px] teko tracking-widest">Sunday<br />12PM - 6PM</div>
       </div>
-      <div class="flex flex-col items-center gap-[24px] text-white text-center tablet:gap-[1rem] mt-[30px]">
-        <span class="font-[500] text-[24px] tablet:text-[20px] teko tracking-widest">CONTACT</span>
-        <div class="font-[300] text-[18px] tablet:text-[15px] teko tracking-widest">646-379-9995</div>
-        <div class="mt-[24px] flex gap-[15px]">
-          <a href="https://www.facebook.com/tattoo7traintattoo" target="_blank"><img src="@/assets/icon/fb.svg"
-              alt="fblogo" class="cursor-pointer"></a>
-          <a href="https://www.instagram.com/7traintattoo?fbclid=IwY2xjawFewnFleHRuA2FlbQIxMAABHcqHI_FMkjR8IT1735B0pgXEXPciDt_1_Nv7LE-oRxTY9pZbu13gukhsLA_aem_TEbDG7cQC85uP7ejRtsa2Q"
-            target="_blank"><img src="@/assets/icon/ig.svg" alt="iglogo" class="cursor-pointer"></a>
-        </div>
+      <div class="flex flex-col items-center gap-[24px] text-[#323232] text-center tablet:gap-[1rem] mt-[30px]">
+        <span class="font-[500] text-[15px] tablet:text-[20px] tracking-widest rublk">CONTACT</span>
+        <div class="font-[300] text-[15px] tablet:text-[15px] tracking-widest rublk">(212) 337-8551 or  (212) 337-9880<br/>whynotmensspa551@gmail.com</div>
       </div>
     </div>
-    <span
-      class="text-[13px] font-[300] text-[#8A8A8A] laptop:text-center tablet:text-center tablet:text-[12px] tablet:mx-[10%] teko tracking-widest whitespace-nowrap">@2024
-      @2024 7 Train Tattoo Studio. All Rights Reserved. x WAG Marketing</span>
+    <div class="flex flex-col items-center gap-[9px]">
+      <img src="@/assets/img/g.svg" alt="">
+      <span
+        class="text-[13px] font-[300] text-[#000000] laptop:text-center tablet:text-center tablet:text-[12px] tablet:mx-[10%] rublk tracking-widest whitespace-nowrap">@2024
+        @2024 Why Not Men’s Spa. All Rights Reserved.  x  WAG Marketing</span>
+    </div>
   </div>
 </template>
 <style lang="scss" scoped>
