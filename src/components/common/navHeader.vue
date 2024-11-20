@@ -45,7 +45,7 @@ const goUrl = (url?: string) => {
       </div>
     </div>
     <!-- <img src="@/assets/img/menu.svg" class="absolute top-[16px] right-4 cursor-pointer desktop:hidden mac:hidden tablet:hidden" @click="showHamburger = true"> -->
-    <img src="@/assets/img/menuWhite.svg" class="absolute top-[1.5rem] right-4 cursor-pointer desktop:hidden mac:hidden"
+    <img src="@/assets/img/menuWhite.svg" class="absolute right-4 cursor-pointer desktop:hidden mac:hidden laptop:top-[20%]"
       @click="showHamburger = true">
   </div>
   <Transition name="slide-fade">
