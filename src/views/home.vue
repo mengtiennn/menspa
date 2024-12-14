@@ -1,17 +1,17 @@
 <template>
-  <div class="desktop:pt-[76px] tablet:pt-[76px]">
+  <div class="pt-[76px]">
     <div id="Home" class="h-[710px] mac:h-[667px] relative mac:pt-[72px] tablet:pt-[0px] tablet:h-full">
-      <div class="w-full h-full">
+      <div class="w-full h-full mobile:hidden">
         <img class="w-full h-full object-cover object-top" src="@/assets/img/banner.png" alt="">
         <div
-          class="w-[50%] absolute text-white left-[calc(50vw-25%)] top-[calc(50%-150px)] flex flex-col items-center tablet:left-0 tablet:top-[10%]">
-          <div class="text-[28px] font-[400] tablet:w-[80%] tablet:text-center tablet:text-[32px] w-fit rublk">
+          class="w-[50%] absolute text-white left-[calc(50vw-25%)] top-[calc(50%-150px)] flex flex-col items-center">
+          <div class="text-[28px] font-[400] w-fit rublk">
             Why Not Men’s Spa</div>
           <div class="flex flex-col text-center w-fit items-center mt-[24px]">
-            <div class="text-[40px] font-[300] tablet:text-[14px] w-fit rublk text-[#ebebeb]">RECHARGE YOUR SPIRIT WITH</div>
-            <div class="text-[40px] font-[300] tablet:text-[14px] w-fit rublk text-[#ebebeb]">MASSAGE AND SPA.</div>
+            <div class="text-[40px] font-[300] w-fit rublk text-[#ebebeb]">RECHARGE YOUR SPIRIT WITH</div>
+            <div class="text-[40px] font-[300] w-fit rublk text-[#ebebeb]">MASSAGE AND SPA.</div>
           </div>
-          <div class="desktop:hidden mac:hidden laptop:hidden w-[1px] h-[67px] bg-white my-[1.2rem]" />
+          <div class="bigMobile:hidden mac:hidden laptop:hidden w-[1px] h-[67px] bg-white my-[1.2rem]" />
           <div
             class="border-white border-[1px] border-solid px-[22px] text-[20px] py-[7px] font-[400] my-[1rem] text-white w-max cursor-pointer mobile:py-[8px] rublk rounded-[20px]">
             <a :href="'tel:646-379-9995'">Call now: (212) 337-8551</a>
@@ -26,9 +26,22 @@
           </div>
         </div>
       </div>
+      <div class="w-full h-[282px] bigMobile:hidden relative">
+        <img class="w-full h-full object-cover object-top" src="@/assets/img/banner.png" alt="">
+        <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col justify-center items-center">
+          <div class="text-[14px] font-[400] text-white">Why Not Men’s Spa</div>
+          <div class="text-center text-[16px] font-[300] text-white playwriteUSModern my-2">
+            Recharge Your Spirit with<br> Massage and Spa.
+          </div>
+          <div
+            class="border-white border-[1px] border-solid px-[12px] text-[12px] py-[5px] font-[400] my-[1rem] text-white w-max cursor-pointer mobile:py-[8px] rublk rounded-[20px]">
+            <a :href="'tel:646-379-9995'">Call now: (212) 337-8551</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="About" class="px-[10%] bg-[#f0efec] flex py-[6rem] justify-evenly tablet:py-[109px] mac:py-[8rem]">
-      <div class="w-full flex flex-col gap-[1rem] items-center tablet:hidden">
+    <div id="About" class="px-[10%] bg-[#f0efec] flex py-[6rem] justify-evenly tablet:py-[109px] mac:py-[8rem] mobile:bg-white">
+      <div class="w-full flex flex-col gap-[1rem] items-center mobile:hidden">
         <div class="text-[15px] text-[#CF6F00] rublk">TREATMENTS • SERVICES</div>
         <div class="text-[36px] playwriteUSModern">Best Spa Near You!</div>
         <div class="w-[60%] flex flex-col gap-[1rem]">
@@ -51,9 +64,19 @@
           </div>
         </div>
       </div>
+      <div class="text-center bigMobile:hidden">
+        <div class="playwriteUSModern text-[19px] font-[400]">Best Spa Near You!</div>
+        <div class="rublk text-[14px] font-[600] text-[#CF6F00] mt-2 mb-4">TREATMENTS  •  SERVICES</div>
+        <div class="rublk text-[16px] text-[#636262] mb-[40px]">
+          Here at Why Not Man’s Spa we specialize in providing therapeutic massage for men at an affordable price. We are client focused and make sure to always keep you feeling healthy and relaxed after each therapy. We believe massage therapy is an extremely important aspect of a healthy living, it will help you maintain a healthy body and can even heal injury or chronic pain. Some of the services we offer are body massages, waxing & trimming, manicure & pedicure and facial treatment. All the services that we offer have health benefits that will lead you to living a happier and healthier life, we also make it mandatory to use clean and anti-allergic products.
+        </div>
+        <div class="rublk text-[16px] text-[#636262]">
+          Through our site you can find some of our best sales and deals that we have to offer. You will also be able to view our services in more detail with all the benefits of each service listed, you can also order a gift card from us, or check out our amazing gallery and get to know our Spa before you even arrive. We have the best rates and are located in the heart of New York’s West Village. Visit us at 174 – 04 West 4th Street Between 6 and 7 Ave near by, 6th Ave, New York, NY 10014, or give us a call at (212) 337-8551 and start your journey towards living a calmer, relaxed life free of stress.
+        </div>
+      </div>
     </div>
     <div id="Contact"
-      class="bg-[url('@/assets/img/contactBg.png')] h-[279px] bg-cover flex justify-evenly items-center px-[10%]">
+      class="bg-[url('@/assets/img/contactBg.png')] h-[279px] bg-cover flex justify-evenly items-center px-[10%] mobile:flex-col mobile:!h-[580px] mobile:bg-right">
       <div class="flex flex-col items-center gap-[8px] h-[100px]">
         <div class="text-[18px] font-[500]">Address</div>
         <div class="flex flex-col justify-center items-center">
@@ -184,12 +207,13 @@
       </div>
     </div>
     <!-- email -->
-    <div class="flex h-[234px]">
-      <div class="w-[35%] h-full"><img class="object-cover w-full h-full" src="@/assets/img/email.png" alt=""></div>
-      <div class="bg-[#E6D4C6] w-[65%] flex flex-col justify-center items-center">
-        <div class="rublk font-[500] text-[24px]">Subscribe for Exclusive Updates and Offers!</div>
+    <div class="flex h-[234px] mobile:flex-col mobile:h-full">
+      <div class="w-[35%] h-full mobile:w-full mobile:!h-[217px]"><img class="object-cover w-full h-full mobile:!h-[217px]" src="@/assets/img/email.png" alt=""></div>
+      <div class="bg-[#E6D4C6] w-[65%] flex flex-col justify-center items-center mobile:w-full mobile:h-[336px] mobile:py-[103px] mobile:px-[50px]">
+        <div class="rublk font-[500] text-[24px] mobile:hidden">Subscribe for Exclusive Updates and Offers!</div>
+        <div class="rublk font-[500] text-[16px] text-center bigMobile:hidden">Subscribe for Exclusive<br> Updates and Offers!</div>
         <div class="mt-4">
-          <el-input v-model="emailInput" style="width: 505px" placeholder="Email" class="input-with-select text-[18px]">
+          <el-input v-model="emailInput" placeholder="Email" class="input-with-select text-[18px] w-[505px] mobile:w-full">
             <template #append>
               <img src="@/assets/img/search.svg" alt="">
             </template>

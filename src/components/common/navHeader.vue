@@ -32,26 +32,27 @@ const goUrl = (url?: string) => {
 </script>
 <template>
   <div
-    class="flex bg-[#f0efec] pt-[22px] px-[20%] pb-[22px] justify-center items-center laptop:justify-center tablet:justify-center laptop:pt-[10px] laptop:pb-[10px] tablet:pt-[10px] tablet:pb-[10px] fixed top-0 left-0 z-50 w-full tablet:px-[5%]">
+    class="flex bg-[#f0efec] pt-[22px] px-[20%] pb-[22px] justify-center items-center laptop:justify-center mobile:justify-center mobile:pt-[10px] mobile:pb-[10px] fixed top-0 left-0 z-50 w-full tablet:px-[5%]">
     <div class="flex justify-between items-center w-full gap-[5rem] max-w-[1200px]">
       <div class="w-full flex justify-between items-center gap-[5rem] tablet:justify-center">
         <div class="flex items-center cursor-pointer" @click="router.push('/')">
-          <div class="whitespace-nowrap text-[24px] font-[400] tablet:text-[15px]">Why Not Men’s Spa</div>
+          <div class="whitespace-nowrap text-[24px] font-[400] tablet:text-[15px] mobile:hidden">Why Not Men’s Spa</div>
+          <img src="@/assets/img/mobileLogo.svg" alt="logo" class="w-[100px] bigMobile:hidden">
         </div>
-        <div class="flex gap-[32px] text-black laptop:hidden tablet:hidden text-[16px]">
+        <div class="flex gap-[32px] text-black mobile:hidden text-[16px]">
           <div v-for="(link, idx) in optionList" :key="idx" @click="scrollTo(link)" class="cursor-pointer font-[400]">{{ link
             }}</div>
         </div>
       </div>
     </div>
-    <!-- <img src="@/assets/img/menu.svg" class="absolute top-[16px] right-4 cursor-pointer desktop:hidden mac:hidden tablet:hidden" @click="showHamburger = true"> -->
-    <img src="@/assets/img/menuWhite.svg" class="absolute right-4 cursor-pointer desktop:hidden mac:hidden laptop:top-[20%]"
+    <!-- <img src="@/assets/img/menu.svg" class="absolute top-[16px] right-4 cursor-pointer bigMobile:hidden mac:hidden tablet:hidden" @click="showHamburger = true"> -->
+    <img src="@/assets/img/menuWhite.svg" class="absolute right-4 cursor-pointer bigMobile:hidden mac:hidden laptop:top-[20%]"
       @click="showHamburger = true">
   </div>
   <Transition name="slide-fade">
     <div class="w-full h-full fixed top-0 left-0 bg-white z-50 flex items-center pt-[75px] flex-col"
       v-if="showHamburger">
-      <img src="@/assets/icon/close.svg" class="fixed top-[16px] right-4 cursor-pointer desktop:hidden"
+      <img src="@/assets/icon/close.svg" class="fixed top-[16px] right-4 cursor-pointer bigMobile:hidden"
         @click="showHamburger = false">
       <div class="flex gap-[24px] text-text-black flex-col items-center">
         <div v-for="(link, idx) in optionList" :key="idx" @click="scrollTo(link)" class="cursor-pointer">{{ link }}

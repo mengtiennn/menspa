@@ -33,13 +33,29 @@ const emailContent = ref('')
       <div class="flex flex-col items-center gap-[24px] text-[#323232] text-center tablet:gap-[1rem] mt-[30px]">
         <span class="font-[500] text-[15px] tablet:text-[20px] tracking-widest rublk">CONTACT</span>
         <div class="font-[300] text-[15px] tablet:text-[15px] tracking-widest rublk">(212) 337-8551 or  (212) 337-9880<br/>whynotmensspa551@gmail.com</div>
+        <div class="flex gap-[10px] bigMobile:hidden">
+          <img src="@/assets/icon/icon-ig.svg" alt="">
+          <img src="@/assets/icon/icon-fb.svg" alt="">
+          <img src="@/assets/icon/icon-google.svg" alt="">
+          <img src="@/assets/icon/icon-yelp.svg" alt="">
+        </div>
       </div>
     </div>
-    <div class="flex flex-col items-center gap-[9px]">
-      <img src="@/assets/img/g.svg" alt="">
+    <div class="flex flex-col items-center gap-[9px] mobile:hidden">
+      <div class="flex gap-[10px]">
+        <img src="@/assets/icon/icon-ig.svg" alt="">
+        <img src="@/assets/icon/icon-fb.svg" alt="">
+        <img src="@/assets/icon/icon-google.svg" alt="">
+        <img src="@/assets/icon/icon-yelp.svg" alt="">
+      </div>
       <span
-        class="text-[13px] font-[300] text-[#000000] laptop:text-center tablet:text-center tablet:text-[12px] tablet:mx-[10%] rublk tracking-widest whitespace-nowrap">@2024
+        class="text-[13px] font-[300] text-[#000000] laptop:text-center tablet:text-center tablet:text-[12px] tablet:mx-[10%] rublk tracking-widest whitespace-nowrap ">@2024
         @2024 Why Not Men’s Spa. All Rights Reserved.  x  WAG Marketing</span>
+    </div>
+    <div class="bigMobile:hidden text-center">
+      <span
+      class="text-[13px] font-[300] text-[#000000] bigMobile:hidden">@2024
+      @2024 Why Not Men’s Spa. All Rights<br> Reserved.  x  WAG Marketing</span>
     </div>
   </div>
 </template>

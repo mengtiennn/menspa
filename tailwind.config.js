@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -28,12 +28,13 @@ module.exports = {
       tablet: { max: "949px" },
       laptop: { min: "950px", max: "1130px" },
       mac: { min: "1131px", max: "1440px" },
-      desktop: { min: "1441px" },
+      bigMobile: { min: "1441px" },
       mobile: { max: "800px" },
+      bigMobile: { min: "801px" },
     },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
