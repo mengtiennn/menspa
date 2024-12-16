@@ -1,6 +1,6 @@
 <template>
   <div class="pt-[76px]">
-    <div id="Home" class="h-[710px] mac:h-[667px] relative mac:pt-[72px] tablet:pt-[0px] tablet:h-full">
+    <div id="Home" class="h-[710px] bigMobile:h-[667px] relative mac:pt-[72px] bigMobile:pt-[0px] mobile:h-full">
       <div class="w-full h-full mobile:hidden">
         <img class="w-full h-full object-cover object-top" src="@/assets/img/banner.png" alt="">
         <div
@@ -101,42 +101,48 @@
       </div>
     </div>
     <!-- SERVICES & PRICES -->
-    <div class="w-full flex flex-col items-center mt-[132px] mb-[112px]">
+    <div id="Services" class="w-full flex flex-col items-center mt-[132px] mb-[112px]">
       <div class="flex flex-col items-center">
-        <span class="text-[15px] font-[600] rublk text-[#CF6F00]">SERVICES & PRICES</span>
-        <span class="text-[36px] font-[400] playwriteUSModern">Ready to Relax?</span>
+        <span class="text-[15px] font-[600] rublk text-[#CF6F00] mobile:hidden">SERVICES & PRICES</span>
+        <span class="text-[36px] font-[400] playwriteUSModern mobile:text-[18px]">Ready to Relax?</span>
+        <span class="text-[14px] font-[600] rublk text-[#CF6F00] mt-2 bigMobile:hidden">SERVICES & PRICES</span>
       </div>
       <div class="mt-[57px] flex flex-col gap-[62px]">
-        <div class="flex gap-[40px] items-center">
+        <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s1.png" alt="" class="w-[289px]">
-          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px]">
-            <span class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040]">Body Massage</span>
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px] mobile:w-[70%]">
+            <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Body Massage</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               We provide professional body massage, reflexology, Swedish massage and hot stone massage. There are
               various health benefits to regular massage treatment, such as; decreased pain, increase in blood flow,
               less anxiety, reduce stress, decrease muscle tension and much more. 
             </div>
             <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] mobile:hidden">
               30min – $45&nbsp&nbsp&nbsp&nbsp&nbsp45min – $60&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp60min – $70<br />90min
               – $105&nbsp&nbsp&nbsp120min
               – $125
+            </div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] bigMobile:hidden">
+              30min – $45 45min – $60 <br>60min – $7 90min
+              – $105 120min – $125
             </div>
             <div class="mt-[13px] Rubik text-[15px] font-[400] leading-[24px] text-[#636262]">$65/60min massage with
               Free Hot stone
               massage<br />(Original rate: $70)</div>
           </div>
         </div>
-        <div class="flex gap-[40px] items-center">
-          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px]">
-            <span class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040]">Waxing & Trimming</span>
+        <div class="flex gap-[40px] items-center mobile:flex-col">
+          <img src="@/assets/img/s2.png" alt="" class="w-[289px] bigMobile:hidden">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px] mobile:w-[70%]">
+            <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Waxing & Trimming</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               Our waxing services will keep you well groomed while feeling clean and smooth. We can provide waxing and
               trimming for your face, chest, back, arms or legs. We also use waxing devices with good anti-allergy
               products.
             </div>
             <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px]">
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mobile:hidden">
               <div>
                 Eyebrows – $15<br />Full arm – $55 ($30)<br />Half arm – $30 ($15)<br />Under arm – $25 ($15)<br />Full
                 leg
@@ -150,48 +156,71 @@
                 $35 ($20)<br />Brazilian Bikini – $85 ($50)<br />Full body – $199 ($130)
               </div>
             </div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] bigMobile:hidden">
+              <div>
+                Eyebrows – $15<br />Full arm – $55 ($30)<br />Half arm – $30 ($15)<br />Under arm – $25 ($15)<br />Full
+                leg
+                – $68
+                ($40)<br />Upper leg – $45 ($30)<br />Lower leg – $35 ($20)<br />Buttocks – $58 ($35) <br>
+                Neck – $15 ($10)<br />Back – $35 ($20)<br />Shoulder – $15 ($10)<br />Chest – $35 ($20)<br />Stomach
+                – $30
+                ($20)<br />Bikini –
+                $35 ($20)<br />Brazilian Bikini – $85 ($50)<br />Full body – $199 ($130)
+              </div>
+            </div>
           </div>
-          <img src="@/assets/img/s2.png" alt="" class="w-[289px]">
+          <img src="@/assets/img/s2.png" alt="" class="w-[289px] mobile:hidden">
         </div>
-        <div class="flex gap-[40px] items-center">
+        <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s3.png" alt="" class="w-[289px]">
-          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px]">
-            <span class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040]">Facial Treatment</span>
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px] mobile:w-[70%]">
+            <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Facial Treatment</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               We use luxury skincare products and professional beauty devices in order to exfoliate and clean the face.
               We also provide face massages and use facial masks to achieve a smooth, clean feeling.
             </div>
-            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price - Facials</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px]">
+            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px] mobile:mt-4">Price - Facials</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
               70min – $148&nbsp&nbsp&nbsp&nbsp80min – $168
             </div>
-            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price - Moisture
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] bigMobile:hidden">
+              70min – $148 <br>80min – $168
+            </div>
+            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px] mobile:mt-4">Price - Moisture
               Facial</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px]">
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
               30min – $68&nbsp&nbsp&nbsp&nbsp70min – $168<br />50min – $108&nbsp&nbsp&nbsp&nbsp80min – $168
+            </div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] bigMobile:hidden">
+              30min – $68<br>70min – $168<br />50min – $108<br>80min – $168
             </div>
           </div>
         </div>
-        <div class="flex gap-[40px] items-center">
-          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px]">
-            <span class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040]">Manicure & Pedicure</span>
+        <div class="flex gap-[40px] items-center mobile:flex-col">
+          <img src="@/assets/img/s4.png" alt="" class="w-[289px] bigMobile:hidden">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px] mobile:w-[70%]">
+            <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Manicure & Pedicure</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               Get a sophisticated look with our professional nail services. Keep those nails clean and avoid all the
               discomforts and bacteria that can come from poor nail care. All of our manicure and pedicure services
               include bathing and hydration.
             </div>
             <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px]">
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
               Manicure – $15&nbsp&nbsp&nbsp&nbspWhy Not Manicure – $28<br />Pedicure – $32&nbsp&nbsp&nbsp&nbspWhy Not
               Pedicure – $52
             </div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] bigMobile:hidden">
+              Manicure – $15<br>Why Not Manicure – $28<br />Pedicure – $32<br>Why Not
+              Pedicure – $52
+            </div>
           </div>
-          <img src="@/assets/img/s4.png" alt="" class="w-[289px]">
+          <img src="@/assets/img/s4.png" alt="" class="w-[289px] mobile:hidden">
         </div>
-        <div class="flex gap-[40px] items-center">
+        <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s5.png" alt="" class="w-[289px]">
-          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px]">
-            <span class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040]">Body Scrubbing</span>
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px] mobile:w-[70%]">
+            <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Body Scrubbing</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               We provide body scrubbing which will make your skin look more vibrant and youthful. Body scrubs help
               remove dead skin cells, boosts circulation and helps increase your nymph nodes. The refreshing texture
@@ -222,57 +251,108 @@
       </div>
     </div>
     <!-- Better Prices -->
-    <div class="w-full flex justify-center gap-[240px] mt-[161px] items-end mb-[199px]">
-      <div class="relative">
-        <img src="@/assets/img/sale1.png" alt="" class="w-[354px]">
-        <img src="@/assets/img/sale2.png" alt="" class="w-[238px] absolute top-[92px] right-[-194px]">
-      </div>
-      <div class="flex flex-col items-center">
-        <span class="text-[#CF6F00] rublk font-[600] text-[24px] leading-[28.44px]">Better Prices</span>
-        <div class="playwriteUSModern font-[400] text-[36px] text-center leading-[49.47px] rublk">Promotion Package
-          <br />&<br />
-          Big Sale!
+     <div>
+       <div class="w-full flex justify-center gap-[240px] mt-[161px] items-end mb-[199px] mobile:hidden">
+         <div class="relative">
+           <img src="@/assets/img/sale1.png" alt="" class="w-[354px]">
+           <img src="@/assets/img/sale2.png" alt="" class="w-[238px] absolute top-[92px] right-[-194px]">
+         </div>
+         <div class="flex flex-col items-center">
+           <span class="text-[#CF6F00] rublk font-[600] text-[24px] leading-[28.44px]">Better Prices</span>
+           <div class="playwriteUSModern font-[400] text-[36px] text-center leading-[49.47px] rublk">Promotion Package
+             <br />&<br />
+             Big Sale!
+           </div>
+           <div class="bg-[#F9F9F9] py-[28px] px-[63px] rounded-[27px] mt-[42px] relative">
+             <img src="@/assets/img/sale3.png" alt="" class="w-[82px] absolute left-[-20px] top-[-40px]">
+             <div class="rublk text-[24px] font-[300] leading-[32.52px] rublk">
+               <span class="text-[#CF0000] text-[36px] font-[500] leading-[55.8px] rublk">50% off</span>all facial
+               treatments
+             </div>
+             <div class="rublk text-[24px] font-[300] leading-[37.2px] rublk">
+               <span class="text-[#CF0000] text-[32px] font-[500] leading-[49.6px] rublk">10% off</span>all waxing services
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$25 - </span>30 min reflexology
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$35 - </span>Manicure + Pedicure
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$40 - </span>30 min massage
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$60 - </span>60 min massage
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$95 - </span>Manicure + Pedicure
+               + 60
+               min massage
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$125 - </span>60 min massage +
+               Facial
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$155 - </span>Manicure + Pedicure
+               + 60
+               min massage + Facial
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="w-full flex flex-col justify-center gap-[40px] mt-[86px] items-end mb-[84px] bigMobile:hidden ">
+        <div class="relative">
+          <img src="@/assets/img/sale1.png" alt="" class="w-full">
+          <img src="@/assets/img/sale3.png" alt="" class="w-[82px] absolute right-[10%] bottom-[-40px]">
         </div>
-        <div class="bg-[#F9F9F9] py-[28px] px-[63px] rounded-[27px] mt-[42px] relative">
-          <img src="@/assets/img/sale3.png" alt="" class="w-[82px] absolute left-[-20px] top-[-40px]">
-          <div class="rublk text-[24px] font-[300] leading-[32.52px] rublk">
-            <span class="text-[#CF0000] text-[36px] font-[500] leading-[55.8px] rublk">50% off</span>all facial
-            treatments
-          </div>
-          <div class="rublk text-[24px] font-[300] leading-[37.2px] rublk">
-            <span class="text-[#CF0000] text-[32px] font-[500] leading-[49.6px] rublk">10% off</span>all waxing services
-          </div>
-          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$25 - </span>30 min reflexology
-          </div>
-          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$35 - </span>Manicure + Pedicure
-          </div>
-          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$40 - </span>30 min massage
-          </div>
-          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$60 - </span>60 min massage
-          </div>
-          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$95 - </span>Manicure + Pedicure
-            + 60
-            min massage
-          </div>
-          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$125 - </span>60 min massage +
-            Facial
-          </div>
-          <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-            <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$155 - </span>Manicure + Pedicure
-            + 60
-            min massage + Facial
-          </div>
-        </div>
-      </div>
-    </div>
+         <div class="flex flex-col items-center">
+           <span class="text-[#CF6F00] rublk font-[600] text-[15px] leading-[18px]">Better Prices</span>
+           <div class="playwriteUSModern font-[400] text-[16px] text-center leading-[22px] rublk">Promotion Package
+             <br />&<br />
+             Big Sale!
+           </div>
+           <div class="bg-[#F9F9F9] py-[28px] px-[63px] rounded-[27px] mt-[42px] relative mx-[5%] flex flex-col gap-1">
+             <div class="rublk text-[24px] font-[300] rublk flex items-center gap-2 my-2">
+               <span class="text-[#CF0000] text-[15px] font-[500] rublk">50% off</span>
+               <span class="text-[15px] font-[500] rublk">all facial treatments</span>
+             </div>
+             <div class="rublk text-[24px] font-[300] rublk flex items-center gap-2 my-2">
+               <span class="text-[#CF0000] text-[15px] font-[500] rublk">10% off</span>
+               <span class="text-[15px] font-[500] rublk">all waxing services</span>
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$25 - </span>30 min reflexology
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$35 - </span>Manicure + Pedicure
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$40 - </span>30 min massage
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$60 - </span>60 min massage
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$95 - </span>Manicure + Pedicure
+               + 60
+               min massage
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$125 - </span>60 min massage +
+               Facial
+             </div>
+             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
+               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$155 - </span>Manicure + Pedicure
+               + 60
+               min massage + Facial
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
     <!-- 八張圖片區 -->
-    <div class="w-full px-[32px] flex flex-wrap justify-center mb-[199px]">
+    <div id="Gallery" class="w-full px-[32px] flex flex-wrap justify-center mb-[199px] mobile:mb-[100px]">
       <img v-for="p in 8" :src="getAssetsImgFile('e', `e${p}.png`)" alt="" class="object-contain w-[343px]">
     </div>
   </div>

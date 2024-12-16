@@ -14,7 +14,7 @@ const scrollTo = (id:string) => {
   console.log(element)
   if(element){
     const elementPosition = element.getBoundingClientRect().top;
-    const offsetPosition = elementPosition + window.pageYOffset - 75;
+    const offsetPosition = elementPosition + window.pageYOffset - 100;
     window.scrollTo({
       top: offsetPosition,
       behavior: 'smooth'
