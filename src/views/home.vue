@@ -110,7 +110,7 @@
       <div class="mt-[57px] flex flex-col gap-[62px]">
         <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s1.png" alt="" class="w-[289px]">
-          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px] mobile:w-[70%]">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
             <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Body Massage</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               We provide professional body massage, reflexology, Swedish massage and hot stone massage. There are
@@ -134,7 +134,7 @@
         </div>
         <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s2.png" alt="" class="w-[289px] bigMobile:hidden">
-          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px] mobile:w-[70%]">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
             <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Waxing & Trimming</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               Our waxing services will keep you well groomed while feeling clean and smooth. We can provide waxing and
@@ -173,7 +173,7 @@
         </div>
         <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s3.png" alt="" class="w-[289px]">
-          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px] mobile:w-[70%]">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
             <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Facial Treatment</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               We use luxury skincare products and professional beauty devices in order to exfoliate and clean the face.
@@ -198,7 +198,7 @@
         </div>
         <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s4.png" alt="" class="w-[289px] bigMobile:hidden">
-          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px] mobile:w-[70%]">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
             <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Manicure & Pedicure</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               Get a sophisticated look with our professional nail services. Keep those nails clean and avoid all the
@@ -219,7 +219,7 @@
         </div>
         <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s5.png" alt="" class="w-[289px]">
-          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25] py-[24px] px-[47px] mobile:w-[70%]">
+          <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
             <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Body Scrubbing</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               We provide body scrubbing which will make your skin look more vibrant and youthful. Body scrubs help
@@ -351,9 +351,20 @@
          </div>
        </div>
      </div>
-    <!-- 八張圖片區 -->
-    <div id="Gallery" class="w-full px-[32px] flex flex-wrap justify-center mb-[199px] mobile:mb-[100px]">
+    <!-- 八張圖片區 電腦版-->
+    <div id="Gallery" class="w-full px-[32px] flex flex-wrap justify-center mb-[199px] mobile:mb-[100px] mobile:hidden">
       <img v-for="p in 8" :src="getAssetsImgFile('e', `e${p}.png`)" alt="" class="object-contain w-[343px]">
+    </div>
+    <!-- 八張圖片區 手機版 -->
+    <div id="Gallery" class="desktop:hidden laptop:hidden mac:hidden mb-[40px] bigMobile:hidden">
+      <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
+        <SplideSlide v-for="slide in 8" :key="slide">
+          <div class="flex justify-center" @click="show('e', slide, 8, 'png')">
+            <img :src="getAssetsImgFile('e', `e${slide}.png`)"
+              class="w-[220px] h-[281px] object-cover cursor-pointer">
+          </div>
+        </SplideSlide>
+      </Splide>
     </div>
   </div>
   <div
@@ -416,11 +427,14 @@ const goToTop = () => {
     behavior: "smooth"
   })
 }
+const p = ref('')
+const pType = ref('')
+const pLimit = ref(0)
 const showBigPhoto = ref(false)
 const showBigPhoto2 = ref(false)
 const nowIndex = ref(0)
 const nowPic = computed(() => {
-  return getAssetsImgFile('r', `r${nowIndex.value}.png`)
+  return getAssetsImgFile('e', `e${nowIndex.value}.png`)
 })
 const nowIndex2 = ref(0)
 const nowPic2 = computed(() => {
@@ -436,15 +450,20 @@ const show2 = (type, idx) => {
   nowIndex2.value = idx
 }
 const changePicIndex = (type) => {
-  if (nowIndex.value == 9 && type == 'go') {
+  if (nowIndex.value == 8 && type == 'go') {
     nowIndex.value = 1
+    let n = nowIndex.value
+    p.value = pType.value + n.toString()
     return
   } else if ((nowIndex.value == 1 || nowIndex.value == 0) && type == 'back') {
-    console.log('yoyoy', nowIndex.value)
-    nowIndex.value = 9
+    nowIndex.value = 8
+    let n = nowIndex.value
+    p.value = pType.value + n.toString()
     return
   }
   type == 'back' ? nowIndex.value -= 1 : nowIndex.value += 1
+  let n = nowIndex.value
+  p.value = pType.value + n.toString()
 }
 const changePicIndex2 = (type) => {
   if (nowIndex2.value == 9 && type == 'go') {
@@ -585,6 +604,38 @@ const submitForm = async (formEl) => {
         width: 8px;
         height: 8px;
         border-radius: 50%;
+      }
+    }
+  }
+}
+
+:deep(.splide__arrow) {
+  >svg {
+    display: none;
+  }
+}
+:deep(.splide__arrow--next) {
+  width: 30px;
+  height: 30px;
+  transform: rotate(180deg) translateX(50px);
+  background-image: url(@/assets/img/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+:deep(.splide__arrow--prev) {
+  width: 30px;
+  height: 30px;
+  transform: translateX(50px);
+  background-image: url(@/assets/img/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+:deep(.splide__pagination) {
+  transform: translateY(30px);
+  >li {
+    .splide__pagination__page {
+      &.is-active {
+        background: #333333;
       }
     }
   }
