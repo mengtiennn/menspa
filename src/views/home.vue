@@ -351,20 +351,22 @@
          </div>
        </div>
      </div>
-    <!-- 八張圖片區 電腦版-->
-    <div id="Gallery" class="w-full px-[32px] flex flex-wrap justify-center mb-[199px] mobile:mb-[100px] mobile:hidden">
-      <img v-for="p in 8" :src="getAssetsImgFile('e', `e${p}.png`)" alt="" class="object-contain w-[343px]">
-    </div>
-    <!-- 八張圖片區 手機版 -->
-    <div id="Gallery" class="desktop:hidden laptop:hidden mac:hidden mb-[40px] bigMobile:hidden">
-      <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
-        <SplideSlide v-for="slide in 8" :key="slide">
-          <div class="flex justify-center" @click="show('e', slide, 8, 'png')">
-            <img :src="getAssetsImgFile('e', `e${slide}.png`)"
-              class="w-[220px] h-[281px] object-cover cursor-pointer">
-          </div>
-        </SplideSlide>
-      </Splide>
+    <div id="Gallery">
+      <!-- 八張圖片區 電腦版-->
+      <div class="w-full px-[32px] flex flex-wrap justify-center mb-[199px] mobile:mb-[100px] mobile:hidden">
+        <img v-for="p in 8" :src="getAssetsImgFile('e', `e${p}.png`)" alt="" class="object-contain w-[343px]">
+      </div>
+      <!-- 八張圖片區 手機版 -->
+      <div class="desktop:hidden laptop:hidden mac:hidden mb-[40px] bigMobile:hidden">
+        <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
+          <SplideSlide v-for="slide in 8" :key="slide">
+            <div class="flex justify-center" @click="show('e', slide, 8, 'png')">
+              <img :src="getAssetsImgFile('e', `e${slide}.png`)"
+                class="w-[220px] h-[281px] object-cover cursor-pointer">
+            </div>
+          </SplideSlide>
+        </Splide>
+      </div>
     </div>
   </div>
   <div
