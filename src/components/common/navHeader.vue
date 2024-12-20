@@ -37,7 +37,7 @@ const goUrl = (url?: string) => {
       <div class="w-full flex justify-between items-center gap-[5rem] tablet:justify-center">
         <div class="flex items-center cursor-pointer" @click="router.push('/')">
           <div class="whitespace-nowrap text-[24px] font-[400] tablet:text-[15px] mobile:hidden">Why Not Men’s Spa</div>
-          <img src="@/assets/img/mobileLogo.svg" alt="logo" class="w-[100px] bigMobile:hidden">
+          <img src="@/assets/img/mobileLogo.png" alt="logo" class="w-[100px] bigMobile:hidden">
         </div>
         <div class="flex gap-[32px] text-black mobile:hidden text-[16px]">
           <div v-for="(link, idx) in optionList" :key="idx" @click="scrollTo(link)" class="cursor-pointer font-[400]">{{ link

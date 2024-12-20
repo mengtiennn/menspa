@@ -50,12 +50,12 @@ const emailContent = ref('')
       </div>
       <span
         class="text-[13px] font-[300] text-[#000000] laptop:text-center tablet:text-center tablet:text-[12px] tablet:mx-[10%] rublk tracking-widest whitespace-nowrap ">@2024
-        @2024 Why Not Men’s Spa. All Rights Reserved.  x  WAG Marketing</span>
+        Why Not Men’s Spa. All Rights Reserved.  x  WAG Marketing</span>
     </div>
     <div class="bigMobile:hidden text-center">
       <span
       class="text-[13px] font-[300] text-[#000000] bigMobile:hidden">@2024
-      @2024 Why Not Men’s Spa. All Rights<br> Reserved.  x  WAG Marketing</span>
+      Why Not Men’s Spa. All Rights<br> Reserved.  x  WAG Marketing</span>
     </div>
   </div>
 </template>

@@ -30,8 +30,9 @@
         <img class="w-full h-full object-cover object-top" src="@/assets/img/banner.png" alt="">
         <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col justify-center items-center">
           <div class="text-[14px] font-[400] text-white">Why Not Men’s Spa</div>
-          <div class="text-center text-[16px] font-[300] text-white playwriteUSModern my-2">
-            Recharge Your Spirit with<br> Massage and Spa.
+          <div class="text-center text-[16px] font-[300] text-white playwriteUSModern my-2 flex flex-col">
+            <span class="playwriteUSModern whitespace-nowrap">Recharge Your Spirit with</span>
+            <span class="playwriteUSModern">Massage and Spa.</span>
           </div>
           <div
             class="border-white border-[1px] border-solid px-[12px] text-[12px] py-[5px] font-[400] my-[1rem] text-white w-max cursor-pointer mobile:py-[8px] rublk rounded-[20px]">
@@ -111,13 +112,13 @@
         <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s1.png" alt="" class="w-[289px]">
           <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
-            <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Body Massage</div>
+            <div class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Body Massage</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               We provide professional body massage, reflexology, Swedish massage and hot stone massage. There are
               various health benefits to regular massage treatment, such as; decreased pain, increase in blood flow,
               less anxiety, reduce stress, decrease muscle tension and much more. 
             </div>
-            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] mobile:hidden">
               30min – $45&nbsp&nbsp&nbsp&nbsp&nbsp45min – $60&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp60min – $70<br />90min
               – $105&nbsp&nbsp&nbsp120min
@@ -135,13 +136,13 @@
         <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s2.png" alt="" class="w-[289px] bigMobile:hidden">
           <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
-            <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Waxing & Trimming</div>
+            <div class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Waxing & Trimming</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               Our waxing services will keep you well groomed while feeling clean and smooth. We can provide waxing and
               trimming for your face, chest, back, arms or legs. We also use waxing devices with good anti-allergy
               products.
             </div>
-            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mobile:hidden">
               <div>
                 Eyebrows – $15<br />Full arm – $55 ($30)<br />Half arm – $30 ($15)<br />Under arm – $25 ($15)<br />Full
@@ -174,19 +175,19 @@
         <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s3.png" alt="" class="w-[289px]">
           <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
-            <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Facial Treatment</div>
+            <div class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Facial Treatment</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               We use luxury skincare products and professional beauty devices in order to exfoliate and clean the face.
               We also provide face massages and use facial masks to achieve a smooth, clean feeling.
             </div>
-            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px] mobile:mt-4">Price - Facials</div>
+            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px] mobile:mt-4">Price - Facials</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
               70min – $148&nbsp&nbsp&nbsp&nbsp80min – $168
             </div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] bigMobile:hidden">
               70min – $148 <br>80min – $168
             </div>
-            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px] mobile:mt-4">Price - Moisture
+            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px] mobile:mt-4">Price - Moisture
               Facial</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
               30min – $68&nbsp&nbsp&nbsp&nbsp70min – $168<br />50min – $108&nbsp&nbsp&nbsp&nbsp80min – $168
@@ -199,13 +200,13 @@
         <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s4.png" alt="" class="w-[289px] bigMobile:hidden">
           <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
-            <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Manicure & Pedicure</div>
+            <div class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Manicure & Pedicure</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               Get a sophisticated look with our professional nail services. Keep those nails clean and avoid all the
               discomforts and bacteria that can come from poor nail care. All of our manicure and pedicure services
               include bathing and hydration.
             </div>
-            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
               Manicure – $15&nbsp&nbsp&nbsp&nbspWhy Not Manicure – $28<br />Pedicure – $32&nbsp&nbsp&nbsp&nbspWhy Not
               Pedicure – $52
@@ -220,14 +221,14 @@
         <div class="flex gap-[40px] items-center mobile:flex-col">
           <img src="@/assets/img/s5.png" alt="" class="w-[289px]">
           <div class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
-            <div class="rublk text-[24px] font-[500] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Body Scrubbing</div>
+            <div class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">Body Scrubbing</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
               We provide body scrubbing which will make your skin look more vibrant and youthful. Body scrubs help
               remove dead skin cells, boosts circulation and helps increase your nymph nodes. The refreshing texture
               against your skin will also have you feeling amazing, an experience that will boost your mood as you
               continue your day or evening.
             </div>
-            <div class="rublk text-[15px] font-[500] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px]">
               60min – $95
             </div>
@@ -313,11 +314,11 @@
              Big Sale!
            </div>
            <div class="bg-[#F9F9F9] py-[28px] px-[63px] rounded-[27px] mt-[42px] relative mx-[5%] flex flex-col gap-1">
-             <div class="rublk text-[24px] font-[300] rublk flex items-center gap-2 my-2">
+             <div class="rublk text-[24px] font-[300] rublk flex items-center gap-2 mb-[4px]">
                <span class="text-[#CF0000] text-[15px] font-[500] rublk">50% off</span>
                <span class="text-[15px] font-[500] rublk">all facial treatments</span>
              </div>
-             <div class="rublk text-[24px] font-[300] rublk flex items-center gap-2 my-2">
+             <div class="rublk text-[24px] font-[300] rublk flex items-center gap-2 mb-[10px]">
                <span class="text-[#CF0000] text-[15px] font-[500] rublk">10% off</span>
                <span class="text-[15px] font-[500] rublk">all waxing services</span>
              </div>
@@ -357,7 +358,7 @@
         <img v-for="p in 8" :src="getAssetsImgFile('e', `e${p}.png`)" alt="" class="object-contain w-[343px]">
       </div>
       <!-- 八張圖片區 手機版 -->
-      <div class="desktop:hidden laptop:hidden mac:hidden mb-[40px] bigMobile:hidden">
+      <div class="desktop:hidden laptop:hidden mac:hidden mb-[100px] bigMobile:hidden">
         <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
           <SplideSlide v-for="slide in 8" :key="slide">
             <div class="flex justify-center" @click="show('e', slide, 8, 'png')">
