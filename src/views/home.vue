@@ -6,10 +6,11 @@
         <div class="w-[50%] absolute text-white left-[calc(50vw-25%)] top-[calc(50%-150px)] flex flex-col items-center">
           <div class="text-[28px] font-[400] w-fit rublk">
             Why Not Men’s Spa</div>
-          <div class="flex flex-col text-center w-fit items-center mt-[24px]">
-            <div class="text-[40px] font-[300] w-fit text-[#ebebeb] playwriteUSModern">RECHARGE YOUR SPIRIT WITH
-            </div>
-            <div class="text-[40px] font-[300] w-fit text-[#ebebeb] playwriteUSModern">MASSAGE AND SPA.</div>
+          <div class="flex flex-col text-center w-fit items-center mt-[24px] playwriteUSModern">
+            <!-- <div class="text-[40px] w-fit text-[#ebebeb] playwriteUSModern">RECHARGE YOUR SPIRIT WITH</div> -->
+            <!-- <div class="text-[40px] w-fit text-[#ebebeb] playwriteUSModern">MASSAGE AND SPA.</div> -->
+            <div class="text-[40px] w-fit text-[#ebebeb] playwriteUSModern">Recharge Your Spirit with</div>
+            <div class="text-[40px] w-fit text-[#ebebeb] playwriteUSModern">Massage and Spa.</div>
           </div>
           <div class="bigMobile:hidden mac:hidden laptop:hidden w-[1px] h-[67px] bg-white my-[1.2rem]" />
           <div
