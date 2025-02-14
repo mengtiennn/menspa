@@ -114,183 +114,6 @@
         </div>
       </div>
     </div>
-    <!-- SERVICES & PRICES -->
-    <div id="Services" class="w-full flex flex-col items-center mt-[132px] mb-[112px]">
-      <div class="flex flex-col items-center">
-        <span class="text-[15px] font-[600] rublk text-[#CF6F00] mobile:hidden">SERVICES & PRICES</span>
-        <span class="text-[36px] font-[400] playwriteUSModern mobile:text-[18px]">Ready to Relax?</span>
-        <span class="text-[14px] font-[600] rublk text-[#CF6F00] mt-2 bigMobile:hidden">SERVICES & PRICES</span>
-      </div>
-      <div class="mt-[57px] flex flex-col gap-[62px]">
-        <div class="flex gap-[40px] items-center mobile:flex-col">
-          <img src="@/assets/img/s1.png" alt="" class="w-[289px]">
-          <div
-            class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
-            <div
-              class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
-              Body Massage</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
-              We provide professional body massage, reflexology, Swedish massage and hot stone massage. There are
-              various health benefits to regular massage treatment, such as; decreased pain, increase in blood flow,
-              less anxiety, reduce stress, decrease muscle tension and much more. 
-            </div>
-            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] mobile:hidden">
-              30min – $45&nbsp&nbsp&nbsp&nbsp&nbsp45min – $60&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp60min – $70<br />90min
-              – $105&nbsp&nbsp&nbsp120min
-              – $125
-            </div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] bigMobile:hidden">
-              30min – $45 45min – $60 <br>60min – $7 90min
-              – $105 120min – $125
-            </div>
-            <div class="mt-[13px] Rubik text-[15px] font-[400] leading-[24px] text-[#636262]">$65/60min massage with
-              Free Hot stone
-              massage<br />(Original rate: $70)</div>
-          </div>
-        </div>
-        <div class="flex gap-[40px] items-center mobile:flex-col">
-          <img src="@/assets/img/s2.png" alt="" class="w-[289px] bigMobile:hidden">
-          <div
-            class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
-            <div
-              class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
-              Waxing & Trimming</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
-              Our waxing services will keep you well groomed while feeling clean and smooth. We can provide waxing and
-              trimming for your face, chest, back, arms or legs. We also use waxing devices with good anti-allergy
-              products.
-            </div>
-            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mobile:hidden">
-              <div>
-                Eyebrows – $15<br />Full arm – $55 ($30)<br />Half arm – $30 ($15)<br />Under arm – $25 ($15)<br />Full
-                leg
-                – $68
-                ($40)<br />Upper leg – $45 ($30)<br />Lower leg – $35 ($20)<br />Buttocks – $58 ($35)
-              </div>
-              <div>
-                Neck – $15 ($10)<br />Back – $35 ($20)<br />Shoulder – $15 ($10)<br />Chest – $35 ($20)<br />Stomach
-                – $30
-                ($20)<br />Bikini –
-                $35 ($20)<br />Brazilian Bikini – $85 ($50)<br />Full body – $199 ($130)
-              </div>
-            </div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] bigMobile:hidden">
-              <div>
-                Eyebrows – $15<br />Full arm – $55 ($30)<br />Half arm – $30 ($15)<br />Under arm – $25 ($15)<br />Full
-                leg
-                – $68
-                ($40)<br />Upper leg – $45 ($30)<br />Lower leg – $35 ($20)<br />Buttocks – $58 ($35) <br>
-                Neck – $15 ($10)<br />Back – $35 ($20)<br />Shoulder – $15 ($10)<br />Chest – $35 ($20)<br />Stomach
-                – $30
-                ($20)<br />Bikini –
-                $35 ($20)<br />Brazilian Bikini – $85 ($50)<br />Full body – $199 ($130)
-              </div>
-            </div>
-          </div>
-          <img src="@/assets/img/s2.png" alt="" class="w-[289px] mobile:hidden">
-        </div>
-        <div class="flex gap-[40px] items-center mobile:flex-col">
-          <img src="@/assets/img/s3.png" alt="" class="w-[289px]">
-          <div
-            class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
-            <div
-              class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
-              Facial Treatment</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
-              We use luxury skincare products and professional beauty devices in order to exfoliate and clean the face.
-              We also provide face massages and use facial masks to achieve a smooth, clean feeling.
-            </div>
-            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px] mobile:mt-4">Price -
-              Facials</div>
-            <div
-              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
-              70min – $148&nbsp&nbsp&nbsp&nbsp80min – $168
-            </div>
-            <div
-              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] bigMobile:hidden">
-              70min – $148 <br>80min – $168
-            </div>
-            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px] mobile:mt-4">Price -
-              Moisture
-              Facial</div>
-            <div
-              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
-              30min – $68&nbsp&nbsp&nbsp&nbsp70min – $168<br />50min – $108&nbsp&nbsp&nbsp&nbsp80min – $168
-            </div>
-            <div
-              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] bigMobile:hidden">
-              30min – $68<br>70min – $168<br />50min – $108<br>80min – $168
-            </div>
-          </div>
-        </div>
-        <div class="flex gap-[40px] items-center mobile:flex-col">
-          <img src="@/assets/img/s4.png" alt="" class="w-[289px] bigMobile:hidden">
-          <div
-            class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
-            <div
-              class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
-              Manicure & Pedicure</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
-              Get a sophisticated look with our professional nail services. Keep those nails clean and avoid all the
-              discomforts and bacteria that can come from poor nail care. All of our manicure and pedicure services
-              include bathing and hydration.
-            </div>
-            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
-            <div
-              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
-              Manicure – $15&nbsp&nbsp&nbsp&nbspWhy Not Manicure – $28<br />Pedicure – $32&nbsp&nbsp&nbsp&nbspWhy Not
-              Pedicure – $52
-            </div>
-            <div
-              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] bigMobile:hidden">
-              Manicure – $15<br>Why Not Manicure – $28<br />Pedicure – $32<br>Why Not
-              Pedicure – $52
-            </div>
-          </div>
-          <img src="@/assets/img/s4.png" alt="" class="w-[289px] mobile:hidden">
-        </div>
-        <div class="flex gap-[40px] items-center mobile:flex-col">
-          <img src="@/assets/img/s5.png" alt="" class="w-[289px]">
-          <div
-            class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
-            <div
-              class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
-              Body Scrubbing</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
-              We provide body scrubbing which will make your skin look more vibrant and youthful. Body scrubs help
-              remove dead skin cells, boosts circulation and helps increase your nymph nodes. The refreshing texture
-              against your skin will also have you feeling amazing, an experience that will boost your mood as you
-              continue your day or evening.
-            </div>
-            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px]">
-              60min – $95
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- email -->
-    <div class="flex h-[234px] mobile:flex-col mobile:h-full">
-      <div class="w-[35%] h-full mobile:w-full mobile:!h-[217px]"><img
-          class="object-cover w-full h-full mobile:!h-[217px]" src="@/assets/img/email.png" alt=""></div>
-      <div
-        class="bg-[#E6D4C6] w-[65%] flex flex-col justify-center items-center mobile:w-full mobile:h-[336px] mobile:py-[103px] mobile:px-[50px]">
-        <div class="rublk font-[500] text-[24px] mobile:hidden">Subscribe for Exclusive Updates and Offers!</div>
-        <div class="rublk font-[500] text-[16px] text-center bigMobile:hidden">Subscribe for Exclusive<br> Updates and
-          Offers!</div>
-        <div class="mt-4">
-          <el-input v-model="emailInput" placeholder="Email"
-            class="input-with-select text-[18px] w-[505px] mobile:w-full">
-            <template #append>
-              <img src="@/assets/img/search.svg" alt="">
-            </template>
-          </el-input>
-        </div>
-      </div>
-    </div>
     <!-- Better Prices -->
     <div>
       <div class="w-full flex justify-center gap-[240px] mt-[161px] items-end mb-[199px] mobile:hidden">
@@ -396,6 +219,216 @@
               min massage + Facial
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- SERVICES & PRICES -->
+    <div id="Services" class="w-full flex flex-col items-center mt-[132px] mb-[112px]">
+      <div class="flex flex-col items-center">
+        <span class="text-[15px] font-[600] rublk text-[#CF6F00] mobile:hidden">SERVICES & PRICES</span>
+        <span class="text-[36px] font-[400] playwriteUSModern mobile:text-[18px]">Ready to Relax?</span>
+        <span class="text-[14px] font-[600] rublk text-[#CF6F00] mt-2 bigMobile:hidden">SERVICES & PRICES</span>
+      </div>
+      <div class="mt-[57px] flex flex-col gap-[62px]">
+        <div class="flex gap-[40px] items-center mobile:flex-col">
+          <img src="@/assets/img/s1.png" alt="" class="w-[289px]">
+          <div
+            class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
+            <div
+              class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
+              Body Massage</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
+              We provide professional body massage, reflexology, Swedish massage and hot stone massage. There are
+              various health benefits to regular massage treatment, such as; decreased pain, increase in blood flow,
+              less anxiety, reduce stress, decrease muscle tension and much more. 
+            </div>
+            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] mobile:hidden">
+              30min – $40&nbsp&nbsp&nbsp&nbsp&nbsp45min – $60&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp60min – $65<br />90min
+              – $105&nbsp&nbsp&nbsp120min
+              – $125
+            </div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] bigMobile:hidden">
+              30min – $40 45min – $60 <br>60min – $65 90min
+              – $105 120min – $125
+            </div>
+            <div class="mt-[13px] Rubik text-[15px] font-[400] leading-[24px] text-[#636262]">$65/60min massage with
+              Free Hot stone
+              massage<br />(Original rate: $70)</div>
+          </div>
+        </div>
+        <div class="flex gap-[40px] items-center mobile:flex-col">
+          <img src="@/assets/img/s4.png" alt="" class="w-[289px] bigMobile:hidden">
+          <div
+            class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
+            <div
+              class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
+              Manicure & Pedicure</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
+              Get a sophisticated look with our professional nail services. Keep those nails clean and avoid all the
+              discomforts and bacteria that can come from poor nail care. All of our manicure and pedicure services
+              include bathing and hydration.
+            </div>
+            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div
+              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
+              Manicure – $15&nbsp&nbsp&nbsp&nbspWhy Not Manicure – $28<br />Pedicure – $32&nbsp&nbsp&nbsp&nbspWhy Not
+              Pedicure – $52
+            </div>
+            <div
+              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] bigMobile:hidden">
+              Manicure – $15<br>Why Not Manicure – $28<br />Pedicure – $32<br>Why Not
+              Pedicure – $52
+            </div>
+          </div>
+          <img src="@/assets/img/s4.png" alt="" class="w-[289px] mobile:hidden">
+        </div>
+        <div class="flex gap-[40px] items-center mobile:flex-col">
+          <img src="@/assets/img/s2.png" alt="" class="w-[289px] mobile:hidden">
+          <img src="@/assets/img/s2.png" alt="" class="w-[289px] bigMobile:hidden">
+          <div
+            class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
+            <div
+              class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
+              Waxing & Trimming</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
+              Our waxing services will keep you well groomed while feeling clean and smooth. We can provide waxing and
+              trimming for your face, chest, back, arms or legs. We also use waxing devices with good anti-allergy
+              products.
+            </div>
+            <div class="flex justify-between">
+              <div class="flex flex-col">
+                <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px] mobile:hidden">Price
+                  of Waxing
+                </div>
+                <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mobile:hidden">
+                  <div>
+                    Eye – $15<br />Full arm – $55<br />Half arm – $30<br />Under arm – $25<br />Full
+                    leg
+                    – $68
+                    <br />Upper leg – $50<br />Lower leg – $35<br />Buttocks – $58<br />
+                    Neck – $15<br />Back – $35<br />Shoulder – $15<br />Chest – $35<br />Stomach
+                    – $30
+                    <br />Bikini –
+                    $55<br />Brazilian Bikini – $85<br />Full body – $199
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px] mobile:hidden">Price
+                  of Trimming
+                </div>
+                <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mobile:hidden">
+                  <div>
+                    Full arm – $30<br />Half arm – $20<br />Under arm – $15<br />Full leg – $60<br />Upper leg
+                    – $40<br />Lower leg
+                    – $20<br />Buttocks – $30
+                    Neck – $10<br />Back – $20<br />Shoulder – $10<br />Chest – $20<br />Stomach – $20<br />Bikini –
+                    $35<br />Brazilian
+                    Bikini
+                    – $50<br />
+                    Full body – $130
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] bigMobile:hidden justify-between flex-col">
+              <div class="flex flex-col">
+                <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price of
+                  Waxing
+                </div>
+                <div>
+                  Eye – $15<br />Full arm – $55<br />Half arm – $30<br />Under arm – $25<br />Full
+                  leg
+                  – $68
+                  <br />Upper leg – $50<br />Lower leg – $35<br />Buttocks – $58<br />
+                  Neck – $15<br />Back – $35<br />Shoulder – $15<br />Chest – $35<br />Stomach
+                  – $30
+                  <br />Bikini –
+                  $55<br />Brazilian Bikini – $85<br />Full body – $199
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price
+                  of Trimming
+                </div>
+                <div>
+                  Full arm – $30<br />Half arm – $20<br />Under arm – $15<br />Full leg – $60<br />Upper leg
+                  – $40<br />Lower leg
+                  – $20<br />Buttocks – $30
+                  Neck – $10<br />Back – $20<br />Shoulder – $10<br />Chest – $20<br />Stomach – $20<br />Bikini –
+                  $35<br />Brazilian
+                  Bikini
+                  – $50<br />
+                  Full body – $130
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <img src="@/assets/img/s2.png" alt="" class="w-[289px] mobile:hidden"> -->
+        </div>
+        <div class="flex gap-[40px] items-center mobile:flex-col-reverse">
+          <div
+            class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
+            <div
+              class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
+              Body Scrubbing</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
+              We provide body scrubbing which will make your skin look more vibrant and youthful. Body scrubs help
+              remove dead skin cells, boosts circulation and helps increase your nymph nodes. The refreshing texture
+              against your skin will also have you feeling amazing, an experience that will boost your mood as you
+              continue your day or evening.
+            </div>
+            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px]">
+              30 min scrub + 30 min massage - $85
+            </div>
+          </div>
+          <img src="@/assets/img/s5.png" alt="" class="w-[289px]">
+        </div>
+        <div class="flex gap-[40px] items-center mobile:flex-col">
+          <img src="@/assets/img/s3.png" alt="" class="w-[289px]">
+          <div
+            class="w-[493px] bg-[#FBFAF8] rounded-[27px] py-[24px] px-[47px] mobile:w-[70%] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]">
+            <div
+              class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
+              Facial Treatment</div>
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
+              We use luxury skincare products and professional beauty devices in order to exfoliate and clean the face.
+              We also provide face massages and use facial masks to achieve a smooth, clean feeling.
+            </div>
+            <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px] mobile:mt-4">Price</div>
+            <div
+              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
+              Deep Pore Facial - $148<br />
+              Hydra Facial - $168
+            </div>
+            <div
+              class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] bigMobile:hidden">
+              Deep Pore Facial - $148<br />
+              Hydra Facial - $168
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- email -->
+    <div class="flex h-[234px] mobile:flex-col mobile:h-full">
+      <div class="w-[35%] h-full mobile:w-full mobile:!h-[217px]"><img
+          class="object-cover w-full h-full mobile:!h-[217px]" src="@/assets/img/email.png" alt=""></div>
+      <div
+        class="bg-[#E6D4C6] w-[65%] flex flex-col justify-center items-center mobile:w-full mobile:h-[336px] mobile:py-[103px] mobile:px-[50px]">
+        <div class="rublk font-[500] text-[24px] mobile:hidden">Subscribe for Exclusive Updates and Offers!</div>
+        <div class="rublk font-[500] text-[16px] text-center bigMobile:hidden">Subscribe for Exclusive<br> Updates and
+          Offers!</div>
+        <div class="mt-4">
+          <el-input v-model="emailInput" placeholder="Email"
+            class="input-with-select text-[18px] w-[505px] mobile:w-full">
+            <template #append>
+              <img src="@/assets/img/search.svg" alt="">
+            </template>
+          </el-input>
         </div>
       </div>
     </div>
