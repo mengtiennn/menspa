@@ -14,7 +14,12 @@ const info = reactive([
   '美国电话 ❘ +1 929-545-4470', '邮箱 ❘ contact@wag.marketing', '微信 ❘ wagmarketing', '小红书 | WAG品牌营销'
 ])
 const emailContent = ref('')
-
+const goUrl = (url) => {
+  if(!url){
+    url = orderUrl.value
+  }
+  window.open(url, '_blank');
+}
 </script>
 <template>
   <div
@@ -34,19 +39,19 @@ const emailContent = ref('')
         <span class="font-[500] text-[15px] tablet:text-[20px] tracking-widest rublk">CONTACT</span>
         <div class="font-[300] text-[15px] tablet:text-[15px] tracking-widest rublk">(212) 337-8551 or  (212) 337-9880<br/>whynotmensspa551@gmail.com</div>
         <div class="flex gap-[10px] bigMobile:hidden">
-          <img src="@/assets/icon/icon-ig.svg" alt="">
-          <img src="@/assets/icon/icon-fb.svg" alt="">
-          <img src="@/assets/icon/icon-google.svg" alt="">
-          <img src="@/assets/icon/icon-yelp.svg" alt="">
+          <img class="cursor-pointer" @click="goUrl('https://www.instagram.com/whynotmensspa')" src="@/assets/icon/icon-ig.svg" alt="">
+          <img class="cursor-pointer" @click="goUrl('https://www.facebook.com/profile.php?id=61551764073429')" src="@/assets/icon/icon-fb.svg" alt="">
+          <img class="cursor-pointer" @click="goUrl('https://www.google.com/search?q=Why+Not+Men%27s+Spa&stick=H4sIAAAAAAAA_-NgU1I1qLCwTDYytbQ0Tk1NTkqxSDG1MqgwSzaxMDY1SUs2MktKNU9JXcQqGJ5RqeCXX6Lgm5qnXqwQXJAIAH4fBGI9AAAA&hl=en&mat=CX4kiOTHEMnBElcBqiIDwmKcwlV9wKJWyZfjS55BkKOyOHnG8LTDNaY72k6CvIT5JsgpVhpoJ8kUwnKzXnJMVaFObol2TB9o41_EHjZvdtToqbkxwtj3yjE5dh5JMeVZ6g0&authuser=0')" src="@/assets/icon/icon-google.svg" alt="">
+          <img class="cursor-pointer" @click="goUrl('https://www.yelp.com/biz/why-not-mens-spa-new-york-5?osq=Why+Not+Mens+Spa')" src="@/assets/icon/icon-yelp.svg" alt="">
         </div>
       </div>
     </div>
     <div class="flex flex-col items-center gap-[9px] mobile:hidden">
       <div class="flex gap-[10px]">
-        <img src="@/assets/icon/icon-ig.svg" alt="">
-        <img src="@/assets/icon/icon-fb.svg" alt="">
-        <img src="@/assets/icon/icon-google.svg" alt="">
-        <img src="@/assets/icon/icon-yelp.svg" alt="">
+        <img class="cursor-pointer" @click="goUrl('https://www.instagram.com/whynotmensspa')" src="@/assets/icon/icon-ig.svg" alt="">
+        <img class="cursor-pointer" @click="goUrl('https://www.facebook.com/profile.php?id=61551764073429')" src="@/assets/icon/icon-fb.svg" alt="">
+        <img class="cursor-pointer" @click="goUrl('https://www.google.com/search?q=Why+Not+Men%27s+Spa&stick=H4sIAAAAAAAA_-NgU1I1qLCwTDYytbQ0Tk1NTkqxSDG1MqgwSzaxMDY1SUs2MktKNU9JXcQqGJ5RqeCXX6Lgm5qnXqwQXJAIAH4fBGI9AAAA&hl=en&mat=CX4kiOTHEMnBElcBqiIDwmKcwlV9wKJWyZfjS55BkKOyOHnG8LTDNaY72k6CvIT5JsgpVhpoJ8kUwnKzXnJMVaFObol2TB9o41_EHjZvdtToqbkxwtj3yjE5dh5JMeVZ6g0&authuser=0')" src="@/assets/icon/icon-google.svg" alt="">
+        <img class="cursor-pointer" @click="goUrl('https://www.yelp.com/biz/why-not-mens-spa-new-york-5?osq=Why+Not+Mens+Spa')" src="@/assets/icon/icon-yelp.svg" alt="">
       </div>
       <span
         class="text-[13px] font-[300] text-[#000000] laptop:text-center tablet:text-center tablet:text-[12px] tablet:mx-[10%] rublk tracking-widest whitespace-nowrap ">@2025

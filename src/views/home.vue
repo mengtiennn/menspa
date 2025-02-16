@@ -145,10 +145,10 @@
               Pedicure
             </div>
             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$40 - </span>30 min massage
+              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$40 - </span>30 min body massage
             </div>
             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$65 - </span>60 min massage
+              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$65 - </span>60 min body massage
             </div>
             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$95 - </span>Manicure +
@@ -197,10 +197,10 @@
               Pedicure
             </div>
             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$40 - </span>30 min massage
+              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$40 - </span>30 min body massage
             </div>
             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$65 - </span>60 min massage
+              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$65 - </span>60 min body massage
             </div>
             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$95 - </span>Manicure +
@@ -302,15 +302,33 @@
                   of Waxing
                 </div>
                 <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mobile:hidden">
-                  <div>
+                  <!-- <div>
                     Eye – $15<br />Full arm – $55<br />Half arm – $30<br />Under arm – $25<br />Full
                     leg
                     – $85
-                    <br />Upper leg – $50<br />Lower leg – $35<br />Buttocks – $58<br />
+                    <br />Upper leg – $50<br />Lower leg – $35<br />Buttock – $58<br />
                     Neck – $15<br />Back – $35<br />Shoulder – $15<br />Chest – $35<br />Stomach
                     – $30
                     <br />Bikini –
-                    $55<br />Brazilian Bikini – $85<br />Full body – $199
+                    $55<br />Brazilian – $85<br />Full body – $199
+                  </div> -->
+                  <div class="flex flex-col">
+                    <div>Eye – $15</div>
+                    <div>Full arm – $55</div>
+                    <div>Half arm – $30</div>
+                    <div>Under arm – $25</div>
+                    <div>Full leg – $85</div>
+                    <div>Upper leg – $50</div>
+                    <div>Lower leg – $35</div>
+                    <div>Buttock – $58</div>
+                    <div>Neck – $15</div>
+                    <div>Back – $35</div>
+                    <div>Shoulder – $15</div>
+                    <div>Chest – $35</div>
+                    <div>Stomach – $30</div>
+                    <div>Bikini – $55</div>
+                    <div>Brazilian – $85</div>
+                    <div>Full body – $199</div>
                   </div>
                 </div>
               </div>
@@ -319,15 +337,31 @@
                   of Trimming
                 </div>
                 <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mobile:hidden">
-                  <div>
+                  <!-- <div>
                     Full arm – $30<br />Half arm – $20<br />Under arm – $15<br />Full leg – $60<br />Upper leg
                     – $40<br />Lower leg
-                    – $20<br />Buttocks – $30
+                    – $20<br />Buttock – $30
                     Neck – $10<br />Back – $20<br />Shoulder – $10<br />Chest – $20<br />Stomach – $20<br />Bikini –
                     $35<br />Brazilian
-                    Bikini
                     – $50<br />
                     Full body – $130
+                  </div> -->
+                  <div class="flex flex-col">
+                    <div>Full arm – $30</div>
+                    <div>Half arm – $20</div>
+                    <div>Under arm – $15</div>
+                    <div>Full leg – $60</div>
+                    <div>Upper leg – $40</div>
+                    <div>Lower leg – $20</div>
+                    <div>Buttock – $30</div>
+                    <div>Neck – $10</div>
+                    <div>Back – $20</div>
+                    <div>Shoulder – $10</div>
+                    <div>Chest – $20</div>
+                    <div>Stomach – $20</div>
+                    <div>Bikini – $35</div>
+                    <div>Brazilian – $50</div>
+                    <div>Full body – $130</div>
                   </div>
                 </div>
               </div>
@@ -338,30 +372,64 @@
                 <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price of
                   Waxing
                 </div>
-                <div>
+                <!-- <div>
                   Eye – $15<br />Full arm – $55<br />Half arm – $30<br />Under arm – $25<br />Full
                   leg
                   – $85
-                  <br />Upper leg – $50<br />Lower leg – $35<br />Buttocks – $58<br />
+                  <br />Upper leg – $50<br />Lower leg – $35<br />Buttock – $58<br />
                   Neck – $15<br />Back – $35<br />Shoulder – $15<br />Chest – $35<br />Stomach
                   – $30
                   <br />Bikini –
-                  $55<br />Brazilian Bikini – $85<br />Full body – $199
+                  $55<br />Brazilian – $85<br />Full body – $199
+                </div> -->
+                <div class="flex flex-col">
+                  <div>Eye – $15</div>
+                  <div>Full arm – $55</div>
+                  <div>Half arm – $30</div>
+                  <div>Under arm – $25</div>
+                  <div>Full leg – $85</div>
+                  <div>Upper leg – $50</div>
+                  <div>Lower leg – $35</div>
+                  <div>Buttock – $58</div>
+                  <div>Neck – $15</div>
+                  <div>Back – $35</div>
+                  <div>Shoulder – $15</div>
+                  <div>Chest – $35</div>
+                  <div>Stomach – $30</div>
+                  <div>Bikini – $55</div>
+                  <div>Brazilian – $85</div>
+                  <div>Full body – $199</div>
                 </div>
               </div>
               <div class="flex flex-col">
                 <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price
                   of Trimming
                 </div>
-                <div>
+                <!-- <div>
                   Full arm – $30<br />Half arm – $20<br />Under arm – $15<br />Full leg – $60<br />Upper leg
                   – $40<br />Lower leg
-                  – $20<br />Buttocks – $30
+                  – $20<br />Buttock – $30
                   Neck – $10<br />Back – $20<br />Shoulder – $10<br />Chest – $20<br />Stomach – $20<br />Bikini –
                   $35<br />Brazilian
-                  Bikini
                   – $50<br />
                   Full body – $130
+                </div> -->
+                <div class="flex flex-col">
+                  <div>Full arm – $30</div>
+                  <div>Half arm – $20</div>
+                  <div>Under arm – $15</div>
+                  <div>Full leg – $60</div>
+                  <div>Upper leg – $40</div>
+                  <div>Lower leg – $20</div>
+                  <div>Buttock – $30</div>
+                  <div>Neck – $10</div>
+                  <div>Back – $20</div>
+                  <div>Shoulder – $10</div>
+                  <div>Chest – $20</div>
+                  <div>Stomach – $20</div>
+                  <div>Bikini – $35</div>
+                  <div>Brazilian – $50</div>
+                  <div>Full body – $130</div>
                 </div>
               </div>
             </div>
