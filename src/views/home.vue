@@ -148,7 +148,7 @@
               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$40 - </span>30 min massage
             </div>
             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$60 - </span>60 min massage
+              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$65 - </span>60 min massage
             </div>
             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$95 - </span>Manicure +
@@ -200,7 +200,7 @@
               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$40 - </span>30 min massage
             </div>
             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
-              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$60 - </span>60 min massage
+              <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$65 - </span>60 min massage
             </div>
             <div class="text-[#404040] font-[300] text-[16px] leading-[24.8px] rublk">
               <span class="text-[#404040] font-[500] text-[16px] leading-[24.8px] rublk">$95 - </span>Manicure +
@@ -237,7 +237,7 @@
             <div
               class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
               Body Massage</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] mb-5">
               We provide professional body massage, reflexology, Swedish massage and hot stone massage. There are
               various health benefits to regular massage treatment, such as; decreased pain, increase in blood flow,
               less anxiety, reduce stress, decrease muscle tension and much more. 
@@ -245,16 +245,16 @@
             <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] mobile:hidden">
               30min – $40&nbsp&nbsp&nbsp&nbsp&nbsp45min – $60&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp60min – $65<br />90min
-              – $105&nbsp&nbsp&nbsp120min
-              – $125
+              – $95&nbsp&nbsp&nbsp120min
+              – $130
             </div>
             <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] bigMobile:hidden">
               30min – $40 45min – $60 <br>60min – $65 90min
-              – $105 120min – $125
+              – $95 120min – $130
             </div>
-            <div class="mt-[13px] Rubik text-[15px] font-[400] leading-[24px] text-[#636262]">$65/60min massage with
+            <!-- <div class="mt-[13px] Rubik text-[15px] font-[400] leading-[24px] text-[#636262]">$65/60min massage with
               Free Hot stone
-              massage<br />(Original rate: $70)</div>
+              massage<br />(Original rate: $70)</div> -->
           </div>
         </div>
         <div class="flex gap-[40px] items-center mobile:flex-col">
@@ -272,12 +272,12 @@
             <div class="rublk text-[15px] font-[700] leading-[17.78px] text-[#464646] mt-[8px]">Price</div>
             <div
               class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] mobile:hidden">
-              Manicure – $15&nbsp&nbsp&nbsp&nbspWhy Not Manicure – $28<br />Pedicure – $32&nbsp&nbsp&nbsp&nbspWhy Not
+              Manicure – $15&nbsp&nbsp&nbsp&nbspWhy Not Manicure – $28<br />Pedicure – $20&nbsp&nbsp&nbsp&nbspWhy Not
               Pedicure – $52
             </div>
             <div
               class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] flex gap-[20px] mt-[2px] bigMobile:hidden">
-              Manicure – $15<br>Why Not Manicure – $28<br />Pedicure – $32<br>Why Not
+              Manicure – $15<br>Why Not Manicure – $28<br />Pedicure – $20<br>Why Not
               Pedicure – $52
             </div>
           </div>
@@ -291,7 +291,7 @@
             <div
               class="rublk text-[24px] font-[700] leading-[43.2px] text-[#404040] mobile:text-[1rem] mobile:text-center">
               Waxing & Trimming</div>
-            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262]">
+            <div class="rublk text-[15px] font-[400] leading-[24px] text-[#636262] mb-5">
               Our waxing services will keep you well groomed while feeling clean and smooth. We can provide waxing and
               trimming for your face, chest, back, arms or legs. We also use waxing devices with good anti-allergy
               products.
@@ -305,7 +305,7 @@
                   <div>
                     Eye – $15<br />Full arm – $55<br />Half arm – $30<br />Under arm – $25<br />Full
                     leg
-                    – $68
+                    – $85
                     <br />Upper leg – $50<br />Lower leg – $35<br />Buttocks – $58<br />
                     Neck – $15<br />Back – $35<br />Shoulder – $15<br />Chest – $35<br />Stomach
                     – $30
@@ -341,7 +341,7 @@
                 <div>
                   Eye – $15<br />Full arm – $55<br />Half arm – $30<br />Under arm – $25<br />Full
                   leg
-                  – $68
+                  – $85
                   <br />Upper leg – $50<br />Lower leg – $35<br />Buttocks – $58<br />
                   Neck – $15<br />Back – $35<br />Shoulder – $15<br />Chest – $35<br />Stomach
                   – $30
@@ -414,7 +414,7 @@
       </div>
     </div>
     <!-- email -->
-    <div class="flex h-[234px] mobile:flex-col mobile:h-full">
+    <div class="flex h-[234px] mobile:flex-col mobile:h-full mb-[10rem]">
       <div class="w-[35%] h-full mobile:w-full mobile:!h-[217px]"><img
           class="object-cover w-full h-full mobile:!h-[217px]" src="@/assets/img/email.png" alt=""></div>
       <div
