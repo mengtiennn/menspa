@@ -110,7 +110,7 @@
         <div class="text-[18px] font-[500]">Business Hours</div>
         <div class="flex flex-col justify-center items-center">
           <div>Monday - Sunday </div>
-          <div>10AM - 11PM</div>
+          <div>10AM - 12AM</div>
         </div>
       </div>
     </div>

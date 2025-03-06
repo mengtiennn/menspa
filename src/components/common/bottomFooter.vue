@@ -32,7 +32,7 @@ const goUrl = (url) => {
       </div>
       <div class="flex flex-col gap-[24px] text-[#323232] text-center mt-[30px]">
         <span class="font-[500] text-[15px] tablet:text-[20px] tracking-widest rublk">HOURS</span>
-        <div class="font-[300] text-[15px] tablet:text-[15px] tracking-widest rublk">Monday-Sunday<br/>10:00AM - 11:00PM
+        <div class="font-[300] text-[15px] tablet:text-[15px] tracking-widest rublk">Monday-Sunday<br/>10:00AM - 12:00AM
         </div>
       </div>
       <div class="flex flex-col items-center gap-[24px] text-[#323232] text-center tablet:gap-[1rem] mt-[30px]">
