@@ -15,7 +15,7 @@
           <div class="bigMobile:hidden mac:hidden laptop:hidden w-[1px] h-[67px] bg-white my-[1.2rem]" />
           <div
             class="border-white border-[1px] border-solid px-[22px] text-[20px] py-[7px] font-[400] my-[1rem] text-white w-max cursor-pointer mobile:py-[8px] rublk rounded-[20px]">
-            <a :href="'tel:212-337-8551'">Call now: (212) 337-8551</a>
+            <a :href="'tel:212-337-9880'">Call now: (212) 337-9880</a>
           </div>
           <div class="w-full flex justify-between items-center mt-[140px]">
             <div class="flex flex-col justify-center items-center text-[16px] font-[300] mac:text-[1rem]">
@@ -38,7 +38,7 @@
           </div>
           <div
             class="border-white border-[1px] border-solid px-[12px] text-[12px] py-[5px] font-[400] my-[1rem] text-white w-max cursor-pointer mobile:py-[8px] rublk rounded-[20px]">
-            <a :href="'tel:212-337-8551'">Call now: (212) 337-8551</a>
+            <a :href="'tel:212-337-9880'">Call now: (212) 337-9880</a>
           </div>
         </div>
       </div>
