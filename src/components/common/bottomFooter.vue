@@ -37,7 +37,7 @@ const goUrl = (url) => {
       </div>
       <div class="flex flex-col items-center gap-[24px] text-[#323232] text-center tablet:gap-[1rem] mt-[30px]">
         <span class="font-[500] text-[15px] tablet:text-[20px] tracking-widest rublk">CONTACT</span>
-        <div class="font-[300] text-[15px] tablet:text-[15px] tracking-widest rublk">(212) 337-8551 or  (212) 337-9880<br/>whynotmensspa551@gmail.com</div>
+        <div class="font-[300] text-[15px] tablet:text-[15px] tracking-widest rublk">(212) 337-9880<br/>whynotmensspa551@gmail.com</div>
         <div class="flex gap-[10px] bigMobile:hidden">
           <img class="cursor-pointer" @click="goUrl('https://www.instagram.com/whynotmensspa')" src="@/assets/icon/icon-ig.svg" alt="">
           <img class="cursor-pointer" @click="goUrl('https://www.facebook.com/profile.php?id=61551764073429')" src="@/assets/icon/icon-fb.svg" alt="">
